@@ -16,6 +16,17 @@ def weighted_gini(parent, child, col):
     weight = child[col].count()/parent[col].count()
     return weight*my_gini(child, col)
 
+def gini_off_col(parent, offcol, col):
+    gini_sum = 0
+    names = []
+    dataFrames = []
+    grouping = parent.groupby(offcol)[offcol]
+    for name,_ in grouping:
+        dataFrames.append(parent[parent[offcol] == name])
+    for df in dataFrames:
+        gini_sum += weighted_gini(parent, df, col)
+    return gini_sum
+
 def my_entropy(panda, col):
     p = 0
     names = []
