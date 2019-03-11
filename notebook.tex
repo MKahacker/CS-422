@@ -141,7 +141,7 @@
     \def\gt{>}
     \def\lt{<}
     % Document parameters
-    \title{Mahmoud\_Kahack\_HW\_2}
+    \title{HomeWork3\_M\_Kahack}
     
     
     
@@ -280,1414 +280,1203 @@
     
 
     
-    \section{Homework 2}\label{homework-2}
+    \textbf{2}
 
-    \begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{1}
+a.
+
+s(\{e\}) = \(\frac{8}{10}\) = 0.8
+
+s(\{b,d\}) = \(\frac{2}{10}\) = 0.2
+
+s(\{b,d,e\}) = 0.2
+
+b.
+
+c(\{b,d\} -\textgreater{} \{e\}) = \(\frac{s({b,d,e})}{s({b,d})}\) =
+\(\frac{0.2}{0.2}\) = 1
+
+c(\{e\} -\textgreater{} \{b,d\}) = \(\frac{0.2}{0.8}\) = 0.25
+
+confidence is clearly not a symmetric metric
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
 \item
-  \begin{quote}
-  \begin{enumerate}
-  \def\labelenumii{\alph{enumii}.}
-  \tightlist
-  \item
-    \[Gini = 1 - \sum_{i=0}^n p_i^2  = 1 - \frac{10^2} {20^2} + \frac{10^2} {20^2} = 1 - \frac{100 + 100} {400} = \frac {1} {2} = 0.5\]
-  \item
-    Customer ID Gini = 0
-  \item
-    Gender Gini = 0.48 
-  \item
-    Car Type Gini = 0.163 
-  \item
-    Shirt Size Gini = 0.4915 
-  \item
-    The feature to split on would be Car Type because its gini is 0.163.
-  \item
-    Cust ID wouldn't be suitable because it would fracture the tree into
-    leaves based on ID. This would overfit our model and wouldn't make
-    sense.
-  \end{enumerate}
-  \end{quote}
-\item
-  \begin{quote}
-  \begin{enumerate}
-  \def\labelenumii{\alph{enumii}.}
-  \item
-    entropy = 0.991076 
-  \item
-    The information gain for \textbf{a1} is 0.2294 and for \textbf{a2}
-    is 0.0072 
-  \item
-    \begin{quote}
-    \begin{enumerate}
-    \def\labelenumiii{\roman{enumiii}.}
-    \tightlist
-    \item
-      \textbf{Information Gain from 1.0:} 0.14269027946047563 
-    \item
-      \textbf{Information Gain from 6.0:} 0.018310781820059074 
-    \item
-      \textbf{Information Gain from 5.0:} 0.007214618474517431 
-    \item
-      \textbf{Information Gain from 4.0:} 0.07278022578373267 
-    \item
-      \textbf{Information Gain from 7.0:} 0.10218717094933338 
-    \item
-      \textbf{Information Gain from 3.0:} 0.002565287367137681
-    \item
-      \textbf{Information Gain from 8.0:} 0.0 
-    \end{enumerate}
-    \end{quote}
-  \end{enumerate}
-  \end{quote}
 \end{enumerate}
 
 \begin{quote}
-\begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
-\setcounter{enumi}{3}
-\tightlist
-\item
-  \textbf{a1} is the best split if we are going by information gain. 
-\item
-  \textbf{a1} has a smaller misclassification value thus its a better
-  split. 
-\item
-  \textbf{a1} has a smaller and thus better gini index and it produces
-  purer nodes. 
-\end{enumerate}
+s(\{e\}) = \(\frac{4}{5}\) = 0.8
 \end{quote}
+
+\begin{quote}
+s(\{b,d\}) = \(\frac{5}{5}\) = 1
+\end{quote}
+
+\begin{quote}
+s(\{b,d,e\}) = \(\frac{4}{5}\) = 0.8
+\end{quote}
+
+d.
+
+\begin{quote}
+c(\{b,d\} -\textgreater{} \{e\}) = 0.8
+\end{quote}
+
+\begin{quote}
+c(\{e\} -\textgreater{} \{b,d\}) = 1
+\end{quote}
+
+e.
+
+\begin{quote}
+we cannot really say anything about confidence or support when we change
+market baskets.
+\end{quote}
+
+\textbf{6}
+
+a.
+
+\begin{quote}
+rules = \(3^d - 2^{d+1} + 1\) = \(3^6 - 2^{7} + 1\) = 602
+\end{quote}
+
+b.
+
+\begin{quote}
+4 is the maximum frequent set possible
+\end{quote}
+
+c.
+
+\begin{quote}
+this is n choose k. So in this case 6 choose 3 so = 20
+\end{quote}
+
+d.
+
+\begin{quote}
+\{bread, butter\}
+\end{quote}
+
+e.
+
+\begin{quote}
+\{beer, cookies\}
+\end{quote}
+
+\textbf{10}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  L1, L3, L5, L9, and L11 
+\item
+  \{1,4,5\}\{1,5,8\}, \{4,5,8\} 
+\end{enumerate}
+
+\textbf{12}
+
+M = \{\{a, b\},\{b, c\},\{c, d\},\{a, d, e\}, \{b, d, e\}\}
+
+C =
+\{\{a\},\{b\},\{c\},\{d\},\{a,b\},\{b,c\},\{b,d\},\{c,d\},\{d,e\},\{a,d,e\},\{b,d,e\}\}
+
+N = \{\{e\}, \{a,d\},\{a,e\},\{b,e\}\}
+
+I =
+\{\{a,c\},\{a,b,c\},\{a,b,d\},\{a,b,e\},\{a,c,d\},\{a,c,e\},\{b,c,d\},\{b,c,e\},\{c,d,e\},\{a,b,c,d\},\{a,b,c,e\},\{a,b,d,e\},
+\{a,c,d,e\},\{b,c,d,e\},\{a,b,c,d,e\}\}
+
+\textbf{13}
+
+a.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& \(c\) & \(\hat{c}\) &\tabularnewline
+\midrule
+\endhead
+\(b\) & 3 & 4 & 7\tabularnewline
+\(\hat{b}\) & 2 & 1 & 3\tabularnewline
+& 5 & 5 & 10\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& \(d\) & \(\hat{d}\) &\tabularnewline
+\midrule
+\endhead
+\(a\) & 4 & 1 & 5\tabularnewline
+\(\hat{a}\) & 5 & 0 & 5\tabularnewline
+& 9 & 1 & 10\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& \(d\) & \(\hat{d}\) &\tabularnewline
+\midrule
+\endhead
+\(b\) & 6 & 1 & 7\tabularnewline
+\(\hat{b}\) & 3 & 0 & 3\tabularnewline
+& 9 & 1 & 10\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& \(c\) & \(\hat{c}\) &\tabularnewline
+\midrule
+\endhead
+\(e\) & 2 & 4 & 6\tabularnewline
+\(\hat{e}\) & 3 & 1 & 4\tabularnewline
+& 5 & 5 & 10\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& \(a\) & \(\hat{a}\) &\tabularnewline
+\midrule
+\endhead
+\(c\) & 2 & 3 & 5\tabularnewline
+\(\hat{c}\) & 3 & 2 & 5\tabularnewline
+& 5 & 5 & 10\tabularnewline
+\bottomrule
+\end{longtable}
+
+b.
+
+support:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{4}
 \item
-  \begin{quote}
-  \begin{enumerate}
-  \def\labelenumii{\alph{enumii}.}
-  \tightlist
-  \item
-    attribute A has an informaton gain of 0.28129, while B has a
-    information gain of 0.2564 a decision tree would choose A because of
-    the higher information gain. 
-  \item
-    A has a gini gain of 0.1381 and B has gini gain index of 0.1633 thus
-    an tree algorithm would choose B because it has more gini gain 
-  \item
-    It wouldn't be possible that information gain and gini favor
-    different attributes. They both measure how impure the child nodes
-    are and thus they are symmetrical. They are proportional to each
-    other which means that it doesn't matter what metric you choose to
-    measure with 
-  \end{enumerate}
-  \end{quote}
+  \{b\} -\textgreater{} \{d\} : 0.6
 \item
-  \begin{quote}
-  \begin{enumerate}
-  \def\labelenumii{\alph{enumii}.}
-  \tightlist
-  \item
-    The gini index of the parent is 0.42 and the misclassification of
-    the parent is 0.3.
-  \item
-    The weighted gini for C1 is 0. The weighted gini for C2 is
-    0.3428571428571429. Thus the total weighted gini is 0.3. This
-    attribute test is better because it is more representative of the
-    over all class proportions. 
-  \item
-    Weighted misclassification for C1 is 0, for C2 is 0.3. There is
-    almost no difference between misclassification and weighted
-    misclassification. 
-  \end{enumerate}
-  \end{quote}
+  \{a\} -\textgreater{} \{d\} : 0.4
 \item
-  \begin{quote}
-  \begin{enumerate}
-  \def\labelenumii{\alph{enumii}.}
-  \tightlist
-  \item
-    My first split would be with Z. The total induced error on the tree
-    would 0.6 weather you use X or Y.
-  \item
-    I would split the both children nodes with Y. The total induced
-    error on the tree would 0.1 
-  \item
-    I would say that split using a greedy algorithm doesn't optimally
-    split the tree.
-  \end{enumerate}
-  \end{quote}
+  \{b\} -\textgreater{} \{c\} : 0.3
+\item
+  \{c\} -\textgreater{} \{a\} tied \{e\} -\textgreater{} \{c\} : 0.2
+\end{enumerate}
+
+confidence:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \{b\} -\textgreater{} \{d\} : 0.86
+\item
+  \{a\} -\textgreater{} \{d\} : 0.8
+\item
+  \{b\} -\textgreater{} \{c\} : 0.43
+\item
+  \{c\} -\textgreater{} \{a\} : 0.4
+\item
+  \{e\} -\textgreater{} \{c\} : 0.33
+\end{enumerate}
+
+interest:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \{b\} -\textgreater{} \{d\} : 0.77
+\item
+  \{a\} -\textgreater{} \{d\} : 0.72
+\item
+  \{b\} -\textgreater{} \{c\} : 0.21
+\item
+  \{c\} -\textgreater{} \{a\} : 0.2
+\item
+  \{e\} -\textgreater{} \{c\} : 0.17
+\end{enumerate}
+
+IS:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \{b\} -\textgreater{} \{d\} : 0.756
+\item
+  \{a\} -\textgreater{} \{d\} : 0.696
+\item
+  \{b\} -\textgreater{} \{c\} : 0.507
+\item
+  \{c\} -\textgreater{} \{a\} : 0.4
+\item
+  \{e\} -\textgreater{} \{c\} : 0.37
+\end{enumerate}
+
+Klosgen:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \{b\} -\textgreater{} \{d\} : -0.03
+\item
+  \{b\} -\textgreater{} \{c\} tied \{c\} -\textgreater{} \{a\}: -0.04
+\item
+  \{a\} -\textgreater{} \{d\} : -0.06
+\item
+  \{e\} -\textgreater{} \{c\} : -0.08
+\end{enumerate}
+
+Odds Ratio:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \{c\} -\textgreater{} \{a\} : 0.44
+\item
+  \{b\} -\textgreater{} \{c\} : 0.375
+\item
+  \{e\} -\textgreater{} \{c\} : 0.16
+\item
+  \{b\} -\textgreater{} \{d\} : 0
+\item
+  \{a\} -\textgreater{} \{d\} : 0
+\end{enumerate}
+
+\textbf{20}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+\end{enumerate}
+
+\begin{itemize}
+\item
+  S(A,B) = 0.09
+\item
+  Interest = 9
+\item
+  Correlation = 0.89
+\item
+  Confidence A -\textgreater{} B: 0.9
+\item
+  Confidence B -\textgreater{} A: 0.9
+\end{itemize}
+
+b.
+
+\begin{itemize}
+\item
+  S(A,B)= 0.89
+\item
+  Interest = 1.099
+\item
+  Correlation = 0.89
+\item
+  Confidence A -\textgreater{} B: 0.99
+\item
+  Confidence B -\textgreater{} A: 0.99
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+   Support, Interest, and Confidence cannot have their f11 and f00
+  inverted. While correlation is affected by an inversion.
 \end{enumerate}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}59}]:} \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
-         \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
-         \PY{k+kn}{from} \PY{n+nn}{scipy} \PY{k}{import} \PY{n}{stats}
-         
-         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{datasets} \PY{k}{import} \PY{n}{load\PYZus{}iris}
-         
-         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{tree} \PY{k}{import} \PY{n}{DecisionTreeClassifier}
-         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{tree} \PY{k}{import} \PY{n}{export\PYZus{}graphviz}
-         
-         \PY{k+kn}{from} \PY{n+nn}{sklearn} \PY{k}{import} \PY{n}{model\PYZus{}selection}
-         \PY{k+kn}{from} \PY{n+nn}{sklearn} \PY{k}{import} \PY{n}{metrics}
-         
-         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{impute} \PY{k}{import} \PY{n}{SimpleImputer}
-         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{decomposition} \PY{k}{import} \PY{n}{PCA}
-         
-         \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
-         
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{my\PYZus{}gini}
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{my\PYZus{}entropy}
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{my\PYZus{}misclass}
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{information\PYZus{}gain}
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{weighted\PYZus{}gini}
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{weighted\PYZus{}misclass}
-         \PY{k+kn}{from} \PY{n+nn}{helper} \PY{k}{import} \PY{n}{gini\PYZus{}off\PYZus{}col}
-         
-         \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+{\color{incolor}In [{\color{incolor}3}]:} \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        
+        \PY{k+kn}{from} \PY{n+nn}{mlxtend}\PY{n+nn}{.}\PY{n+nn}{frequent\PYZus{}patterns} \PY{k}{import} \PY{n}{apriori}
+        \PY{k+kn}{from} \PY{n+nn}{mlxtend}\PY{n+nn}{.}\PY{n+nn}{frequent\PYZus{}patterns} \PY{k}{import} \PY{n}{association\PYZus{}rules}
+        
+        \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
 \end{Verbatim}
 
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}54}]:} \PY{n}{exercise\PYZus{}2} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cust ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{,}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{6}\PY{p}{,}\PY{l+m+mi}{7}\PY{p}{,}\PY{l+m+mi}{8}\PY{p}{,}\PY{l+m+mi}{9}\PY{p}{,}\PY{l+m+mi}{10}\PY{p}{,}\PY{l+m+mi}{11}\PY{p}{,}\PY{l+m+mi}{12}\PY{p}{,}\PY{l+m+mi}{13}\PY{p}{,}\PY{l+m+mi}{14}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{16}\PY{p}{,}\PY{l+m+mi}{17}\PY{p}{,}\PY{l+m+mi}{18}\PY{p}{,}\PY{l+m+mi}{19}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Gender}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{M}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{F}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,} 
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Car Type}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Family}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sports}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Family}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Family}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Family}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Luxury}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Shirt Size}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Extra Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Extra Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Extra Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Extra Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Medium}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Target}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{C1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{\PYZcb{}}
-         \PY{n}{pd\PYZus{}exercise\PYZus{}2} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{exercise\PYZus{}2}\PY{p}{)}
-         \PY{n}{car} \PY{o}{=} \PY{p}{[}\PY{p}{]}
-         \PY{n}{gender} \PY{o}{=} \PY{p}{[}\PY{p}{]}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Full data set gini:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}gini}\PY{p}{(}\PY{n}{pd\PYZus{}exercise\PYZus{}2}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Target}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Gender gini:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{gini\PYZus{}off\PYZus{}col}\PY{p}{(}\PY{n}{pd\PYZus{}exercise\PYZus{}2}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Gender}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Target}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Car Type:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{gini\PYZus{}off\PYZus{}col}\PY{p}{(}\PY{n}{pd\PYZus{}exercise\PYZus{}2}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Car Type}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Target}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Shirt Size:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{gini\PYZus{}off\PYZus{}col}\PY{p}{(}\PY{n}{pd\PYZus{}exercise\PYZus{}2}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Shirt Size}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Target}\PY{l+s+s2}{\PYZdq{}} \PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-Full data set gini: 0.5
-Gender gini: 0.48
-Car Type: 0.16250000000000003
-Shirt Size: 0.49142857142857144
-
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}55}]:} \PY{n}{exercise\PYZus{}3} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{a1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{]}\PY{p}{,} 
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{a2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{True}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{a3}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{p}{[}\PY{l+m+mf}{1.0}\PY{p}{,}\PY{l+m+mf}{6.0}\PY{p}{,}\PY{l+m+mf}{5.0}\PY{p}{,}\PY{l+m+mf}{4.0}\PY{p}{,}\PY{l+m+mf}{7.0}\PY{p}{,}\PY{l+m+mf}{3.0}\PY{p}{,}\PY{l+m+mf}{8.0}\PY{p}{,}\PY{l+m+mf}{7.0}\PY{p}{,}\PY{l+m+mf}{5.0}\PY{p}{]}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Target}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{\PYZcb{}}
-         \PY{n}{pd\PYZus{}exr\PYZus{}3} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{exercise\PYZus{}3}\PY{p}{)}
-         \PY{n}{pd\PYZus{}exr\PYZus{}3}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}55}]:}              a3
-         count  9.000000
-         mean   5.111111
-         std    2.204793
-         min    1.000000
-         25\%    4.000000
-         50\%    5.000000
-         75\%    7.000000
-         max    8.000000
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}56}]:} \PY{n}{exercise\PYZus{}5} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{A}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,} \PY{k+kc}{True}\PY{p}{]}\PY{p}{,} 
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{B}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{k+kc}{False}\PY{p}{,} \PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{False}\PY{p}{,}\PY{k+kc}{True}\PY{p}{,}\PY{k+kc}{False}\PY{p}{]}\PY{p}{,}
-                      \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class Label}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{\PYZcb{}}
-         \PY{n}{pd\PYZus{}exr\PYZus{}5} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{exercise\PYZus{}5}\PY{p}{)}
-         \PY{n}{pd\PYZus{}exr\PYZus{}5}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}56}]:}            A      B Class Label
-         count     10     10          10
-         unique     2      2           2
-         top     True  False           -
-         freq       7      6           6
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}57}]:} \PY{n}{exercise\PYZus{}6} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{P}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{\PYZcb{}}
-         \PY{n}{pd\PYZus{}exr\PYZus{}6} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{exercise\PYZus{}6}\PY{p}{)}
-         \PY{n}{pd\PYZus{}exr\PYZus{}6}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Gini of parent:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}gini}\PY{p}{(}\PY{n}{pd\PYZus{}exr\PYZus{}6}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{P}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Misclassification of parent:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}misclass}\PY{p}{(}\PY{n}{pd\PYZus{}exr\PYZus{}6}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{P}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-Gini of parent: 0.42000000000000004
-Misclassification of parent: 0.30000000000000004
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}58}]:} \PY{n}{exercise\PYZus{}7} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{X}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Y}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Z}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class C1 examples}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{45}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,}\PY{l+m+mi}{25}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}
-                       \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class C2 examples}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{p}{[}\PY{l+m+mi}{40}\PY{p}{,} \PY{l+m+mi}{15}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{15}\PY{p}{]}
-                       \PY{p}{\PYZcb{}}
-         \PY{n}{pd\PYZus{}exr\PYZus{}7} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{exercise\PYZus{}7}\PY{p}{)}
-         \PY{n}{pd\PYZus{}exr\PYZus{}7}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}58}]:}               X         Y         Z  Class C1 examples  Class C2 examples
-         count  8.000000  8.000000  8.000000           8.000000           8.000000
-         mean   0.500000  0.500000  0.500000          12.500000          12.500000
-         std    0.534522  0.534522  0.534522          15.352989          13.363062
-         min    0.000000  0.000000  0.000000           0.000000           0.000000
-         25\%    0.000000  0.000000  0.000000           3.750000           3.750000
-         50\%    0.500000  0.500000  0.500000           7.500000          10.000000
-         75\%    1.000000  1.000000  1.000000          13.750000          16.250000
-         max    1.000000  1.000000  1.000000          45.000000          40.000000
-\end{Verbatim}
-            
     \subsection{Problem 1}\label{problem-1}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+Load the \emph{Online Retaildataset} (\textbf{Online Retail.xlsx}) from
+the \textbf{UCI Machine Learning Repository} into Python using a Pandas
+dataframe. Using the apriori module from the \textbf{MLxtend} library,
+generate Frequent Itemsets for all trans-actions for the country of
+France. What itemset has the largest support? Set the minimum support
+threshold to 5\% and extract frequent itemsets, and use them as input to
+the association rules module. Use each of the confidence and lift
+metrics to extract the association rules with the highest values,
+respectively. What are the antecedents and consequents of each rule? Is
+the rule with the highest confidence the same as the rule with the
+highest lift? Why or why not?
 
-Load the iris sample dataset from sklearn \textbf{loadiris()} into
-Python using a Pandas dataframe. Induce a set of binary Decision Trees
-with a minimum of 2 instances in the leaves, no splits of subsets below
-5, and an maximal tree depth from 1 to 5 (you can leave the majority
-parameter to 95\%). Which depth values result in the highest Recall?
-Why? Which value resulted in the lowest Precision? Why? Which value
-results in the best F1 score? Explain the difference between the
-micro/macro/weighted methods of score calculation.
+    \subsubsection{Answer :-}\label{answer--}
 
-    \subsubsection{Answer}\label{answer}
+The itemset with the largest support is \{'RABBIT NIGHT LIGHT'\}.
 
-All depth greater than or equal to 2 have the highest recall. The reason
-recall improves from depth 1 to depth 2+ is because at depth one we have
-2 leafs. Adding more levels allows for leaves to develop that will
-identify the 3rd class. Thus TP increases and so does Recall.
+The rule with the highest confidence is \{'SET/20 RED RETROSPOT PAPER
+NAPKINS','SET/6 RED SPOTTY PAPER PLATES'\} -\textgreater{} \{'SET/6 RED
+SPOTTY PAPER CUPS'\}.
 
-The lowest precision was with depth 1, because there was a large number
-of FP. The best f1-score is for 2+ depth.
+The rule with the highest lift is \{'PACK OF 6 SKULL PAPER CUPS'\}
+-\textgreater{} \{'PACK OF 6 SKULL PAPER PLATES'\}.
 
-The Macro method takes the average of all scores from different classes.
-Micro takes the ratio of the overall classifier using all the classes
-information. Weighted calculation looks at the individual calculations
-of metrics in each class but sums them based on weight.
+The rule with the highest confidence and the rule with the highest lift
+are different. This because the lift takes into account the joint
+support of the rule and both the support of the antecedents and
+consequents support. Confidence only takes into account joint support of
+the rule and the antecedent's support.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}5}]:} \PY{n}{iris} \PY{o}{=} \PY{n}{load\PYZus{}iris}\PY{p}{(}\PY{p}{)}
-        \PY{n}{pd\PYZus{}iris} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{c\PYZus{}}\PY{p}{[}\PY{n}{iris}\PY{o}{.}\PY{n}{data}\PY{p}{,} \PY{n}{iris}\PY{o}{.}\PY{n}{target}\PY{p}{]}\PY{p}{,} \PY{n}{columns} \PY{o}{=} \PY{n}{iris}\PY{o}{.}\PY{n}{feature\PYZus{}names}\PY{o}{+}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{species}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
-        
-        \PY{n}{pd\PYZus{}iris}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}92}]:} \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}excel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{http://archive.ics.uci.edu/ml/machine\PYZhy{}learning\PYZhy{}databases/00352/Online}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{20Retail.xlsx}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}5}]:}        sepal length (cm)  sepal width (cm)  petal length (cm)  \textbackslash{}
-        count         150.000000        150.000000         150.000000   
-        mean            5.843333          3.057333           3.758000   
-        std             0.828066          0.435866           1.765298   
-        min             4.300000          2.000000           1.000000   
-        25\%             5.100000          2.800000           1.600000   
-        50\%             5.800000          3.000000           4.350000   
-        75\%             6.400000          3.300000           5.100000   
-        max             7.900000          4.400000           6.900000   
-        
-               petal width (cm)     species  
-        count        150.000000  150.000000  
-        mean           1.199333    1.000000  
-        std            0.762238    0.819232  
-        min            0.100000    0.000000  
-        25\%            0.300000    0.000000  
-        50\%            1.300000    1.000000  
-        75\%            1.800000    2.000000  
-        max            2.500000    2.000000  
+{\color{outcolor}Out[{\color{outcolor}92}]:}   InvoiceNo StockCode                          Description  Quantity  \textbackslash{}
+         0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER         6   
+         1    536365     71053                  WHITE METAL LANTERN         6   
+         2    536365    84406B       CREAM CUPID HEARTS COAT HANGER         8   
+         3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE         6   
+         4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.         6   
+         
+                   InvoiceDate  UnitPrice  CustomerID         Country  
+         0 2010-12-01 08:26:00       2.55     17850.0  United Kingdom  
+         1 2010-12-01 08:26:00       3.39     17850.0  United Kingdom  
+         2 2010-12-01 08:26:00       2.75     17850.0  United Kingdom  
+         3 2010-12-01 08:26:00       3.39     17850.0  United Kingdom  
+         4 2010-12-01 08:26:00       3.39     17850.0  United Kingdom  
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}13}]:} \PY{n}{data\PYZus{}train}\PY{p}{,} \PY{n}{data\PYZus{}test}\PY{p}{,} \PY{n}{target\PYZus{}train}\PY{p}{,} \PY{n}{target\PYZus{}test} \PY{o}{=} \PY{n}{model\PYZus{}selection}\PY{o}{.}\PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{iris}\PY{o}{.}\PY{n}{data}\PY{p}{,}
-                                                                             \PY{n}{iris}\PY{o}{.}\PY{n}{target}\PY{p}{,}
-                                                                             \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}93}]:} \PY{n}{df}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}93}]:}             Quantity      UnitPrice     CustomerID
+         count  541909.000000  541909.000000  406829.000000
+         mean        9.552250       4.611114   15287.690570
+         std       218.081158      96.759853    1713.600303
+         min    -80995.000000  -11062.060000   12346.000000
+         25\%         1.000000       1.250000   13953.000000
+         50\%         3.000000       2.080000   15152.000000
+         75\%        10.000000       4.130000   16791.000000
+         max     80995.000000   38970.000000   18287.000000
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}94}]:} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         \PY{n}{df}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{,} \PY{n}{subset}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{InvoiceNo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{InvoiceNo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{InvoiceNo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{str}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{o}{\PYZti{}}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{InvoiceNo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{contains}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{C}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{]}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}14}]:} \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}\PY{p}{:}
-             \PY{n}{predicted} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{p}{(}\PY{n}{i}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}leaf} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}split} \PY{o}{=} \PY{l+m+mi}{5}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{data\PYZus{}train}\PY{p}{,} \PY{n}{target\PYZus{}train}\PY{p}{)}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{data\PYZus{}test}\PY{p}{)}
-             \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Tree with depth: }\PY{l+s+s2}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{i}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{o}{+}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ \PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-             \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{classification\PYZus{}report}\PY{p}{(}\PY{n}{target\PYZus{}test}\PY{p}{,}
-                                             \PY{n}{predicted}\PY{p}{)}\PY{p}{)}
-             \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Confusion Matrix\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-             \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{confusion\PYZus{}matrix}\PY{p}{(}\PY{n}{target\PYZus{}test}\PY{p}{,}
-                                        \PY{n}{predicted}\PY{p}{)}\PY{p}{)}
-             \PY{n+nb}{print}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}95}]:} \PY{n}{df}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}95}]:}             Quantity      UnitPrice     CustomerID
+         count  532621.000000  532621.000000  397924.000000
+         mean       10.239972       3.847621   15294.315171
+         std       159.593551      41.758023    1713.169877
+         min     -9600.000000  -11062.060000   12346.000000
+         25\%         1.000000       1.250000   13969.000000
+         50\%         3.000000       2.080000   15159.000000
+         75\%        10.000000       4.130000   16795.000000
+         max     80995.000000   13541.330000   18287.000000
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}96}]:} \PY{n}{france\PYZus{}df} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Country}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{France}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
+         \PY{n}{france\PYZus{}df}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}96}]:}           Quantity    UnitPrice    CustomerID
+         count  8408.000000  8408.000000   8342.000000
+         mean     13.333016     4.399713  12678.377128
+         std      21.069963    65.505260    277.279060
+         min       1.000000     0.000000  12413.000000
+         25\%       6.000000     1.250000  12571.000000
+         50\%      10.000000     1.790000  12678.000000
+         75\%      12.000000     3.750000  12689.000000
+         max     912.000000  4161.060000  14277.000000
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}97}]:} \PY{n}{french\PYZus{}basket} \PY{o}{=} \PY{p}{(}\PY{n}{france\PYZus{}df}
+                   \PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{InvoiceNo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Quantity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+                   \PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{unstack}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{reset\PYZus{}index}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{fillna}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{)}
+                   \PY{o}{.}\PY{n}{set\PYZus{}index}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{InvoiceNo}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+         
+         \PY{n}{french\PYZus{}basket}\PY{o}{.}\PY{n}{tail}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}97}]:} Description  10 COLOUR SPACEBOY PEN  12 COLOURED PARTY BALLOONS  \textbackslash{}
+         InvoiceNo                                                         
+         580986                          0.0                         0.0   
+         581001                          0.0                         0.0   
+         581171                          0.0                         0.0   
+         581279                          0.0                         0.0   
+         581587                          0.0                         0.0   
+         
+         Description  12 EGG HOUSE PAINTED WOOD  12 MESSAGE CARDS WITH ENVELOPES  \textbackslash{}
+         InvoiceNo                                                                 
+         580986                             0.0                              0.0   
+         581001                             0.0                              0.0   
+         581171                             0.0                              0.0   
+         581279                             0.0                              0.0   
+         581587                             0.0                              0.0   
+         
+         Description  12 PENCIL SMALL TUBE WOODLAND  \textbackslash{}
+         InvoiceNo                                    
+         580986                                 0.0   
+         581001                                 0.0   
+         581171                                 0.0   
+         581279                                 0.0   
+         581587                                 0.0   
+         
+         Description  12 PENCILS SMALL TUBE RED RETROSPOT  12 PENCILS SMALL TUBE SKULL  \textbackslash{}
+         InvoiceNo                                                                       
+         580986                                       0.0                          0.0   
+         581001                                       0.0                          0.0   
+         581171                                       0.0                          0.0   
+         581279                                       0.0                          0.0   
+         581587                                       0.0                          0.0   
+         
+         Description  12 PENCILS TALL TUBE POSY  12 PENCILS TALL TUBE RED RETROSPOT  \textbackslash{}
+         InvoiceNo                                                                    
+         580986                             0.0                                 0.0   
+         581001                             0.0                                 0.0   
+         581171                             0.0                                 0.0   
+         581279                             0.0                                 0.0   
+         581587                             0.0                                 0.0   
+         
+         Description  12 PENCILS TALL TUBE WOODLAND               {\ldots}                 \textbackslash{}
+         InvoiceNo                                                {\ldots}                  
+         580986                                 0.0               {\ldots}                  
+         581001                                 0.0               {\ldots}                  
+         581171                                 0.0               {\ldots}                  
+         581279                                 0.0               {\ldots}                  
+         581587                                 0.0               {\ldots}                  
+         
+         Description  WRAP VINTAGE PETALS  DESIGN  YELLOW COAT RACK PARIS FASHION  \textbackslash{}
+         InvoiceNo                                                                  
+         580986                               0.0                             0.0   
+         581001                               0.0                             0.0   
+         581171                               0.0                             0.0   
+         581279                               0.0                             0.0   
+         581587                               0.0                             0.0   
+         
+         Description  YELLOW GIANT GARDEN THERMOMETER  YELLOW SHARK HELICOPTER  \textbackslash{}
+         InvoiceNo                                                               
+         580986                                   0.0                      0.0   
+         581001                                   0.0                      0.0   
+         581171                                   0.0                      0.0   
+         581279                                   0.0                      0.0   
+         581587                                   0.0                      0.0   
+         
+         Description  ZINC  STAR T-LIGHT HOLDER  ZINC FOLKART SLEIGH BELLS  \textbackslash{}
+         InvoiceNo                                                           
+         580986                             0.0                        0.0   
+         581001                             0.0                        0.0   
+         581171                             0.0                        0.0   
+         581279                             0.0                        0.0   
+         581587                             0.0                        0.0   
+         
+         Description  ZINC HERB GARDEN CONTAINER  ZINC METAL HEART DECORATION  \textbackslash{}
+         InvoiceNo                                                              
+         580986                              0.0                          0.0   
+         581001                              0.0                          0.0   
+         581171                              0.0                          0.0   
+         581279                              0.0                          0.0   
+         581587                              0.0                          0.0   
+         
+         Description  ZINC T-LIGHT HOLDER STAR LARGE  ZINC T-LIGHT HOLDER STARS SMALL  
+         InvoiceNo                                                                     
+         580986                                  0.0                              0.0  
+         581001                                  0.0                              0.0  
+         581171                                  0.0                              0.0  
+         581279                                  0.0                              0.0  
+         581587                                  0.0                              0.0  
+         
+         [5 rows x 1563 columns]
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}99}]:} \PY{k}{def} \PY{n+nf}{sum\PYZus{}to\PYZus{}boolean}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{:}
+             \PY{k}{if} \PY{n}{x}\PY{o}{\PYZlt{}}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{:}
+                 \PY{k}{return} \PY{l+m+mi}{0}
+             \PY{k}{else}\PY{p}{:}
+                 \PY{k}{return} \PY{l+m+mi}{1}
+         
+         \PY{n}{french\PYZus{}basket\PYZus{}sg} \PY{o}{=} \PY{n}{french\PYZus{}basket}\PY{o}{.}\PY{n}{applymap}\PY{p}{(}\PY{n}{sum\PYZus{}to\PYZus{}boolean}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-----------------------------Tree with depth: 1 -----------------------
-
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00        16
-           1       0.50      1.00      0.67         7
-           2       0.00      0.00      0.00         7
-
-   micro avg       0.77      0.77      0.77        30
-   macro avg       0.50      0.67      0.56        30
-weighted avg       0.65      0.77      0.69        30
-
-----------------------------Confusion Matrix---------------------------
-
-[[16  0  0]
- [ 0  7  0]
- [ 0  7  0]]
-
-----------------------------Tree with depth: 2 -----------------------
-
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00        16
-           1       0.78      1.00      0.88         7
-           2       1.00      0.71      0.83         7
-
-   micro avg       0.93      0.93      0.93        30
-   macro avg       0.93      0.90      0.90        30
-weighted avg       0.95      0.93      0.93        30
-
-----------------------------Confusion Matrix---------------------------
-
-[[16  0  0]
- [ 0  7  0]
- [ 0  2  5]]
-
-----------------------------Tree with depth: 3 -----------------------
-
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00        16
-           1       0.88      1.00      0.93         7
-           2       1.00      0.86      0.92         7
-
-   micro avg       0.97      0.97      0.97        30
-   macro avg       0.96      0.95      0.95        30
-weighted avg       0.97      0.97      0.97        30
-
-----------------------------Confusion Matrix---------------------------
-
-[[16  0  0]
- [ 0  7  0]
- [ 0  1  6]]
-
-----------------------------Tree with depth: 4 -----------------------
-
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00        16
-           1       0.88      1.00      0.93         7
-           2       1.00      0.86      0.92         7
-
-   micro avg       0.97      0.97      0.97        30
-   macro avg       0.96      0.95      0.95        30
-weighted avg       0.97      0.97      0.97        30
-
-----------------------------Confusion Matrix---------------------------
-
-[[16  0  0]
- [ 0  7  0]
- [ 0  1  6]]
-
-----------------------------Tree with depth: 5 -----------------------
-
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00        16
-           1       0.88      1.00      0.93         7
-           2       1.00      0.86      0.92         7
-
-   micro avg       0.97      0.97      0.97        30
-   macro avg       0.96      0.95      0.95        30
-weighted avg       0.97      0.97      0.97        30
-
-----------------------------Confusion Matrix---------------------------
-
-[[16  0  0]
- [ 0  7  0]
- [ 0  1  6]]
+{\color{incolor}In [{\color{incolor}100}]:} \PY{n}{french\PYZus{}basket\PYZus{}sg}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{POSTAGE}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+          \PY{n}{french\PYZus{}basket\PYZus{}sg}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
 
 
-    \end{Verbatim}
-
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}100}]:} Description  10 COLOUR SPACEBOY PEN  12 COLOURED PARTY BALLOONS  \textbackslash{}
+          count                    392.000000                  392.000000   
+          mean                       0.030612                    0.015306   
+          std                        0.172485                    0.122924   
+          min                        0.000000                    0.000000   
+          25\%                        0.000000                    0.000000   
+          50\%                        0.000000                    0.000000   
+          75\%                        0.000000                    0.000000   
+          max                        1.000000                    1.000000   
+          
+          Description  12 EGG HOUSE PAINTED WOOD  12 MESSAGE CARDS WITH ENVELOPES  \textbackslash{}
+          count                       392.000000                       392.000000   
+          mean                          0.002551                         0.005102   
+          std                           0.050508                         0.071337   
+          min                           0.000000                         0.000000   
+          25\%                           0.000000                         0.000000   
+          50\%                           0.000000                         0.000000   
+          75\%                           0.000000                         0.000000   
+          max                           1.000000                         1.000000   
+          
+          Description  12 PENCIL SMALL TUBE WOODLAND  \textbackslash{}
+          count                           392.000000   
+          mean                              0.015306   
+          std                               0.122924   
+          min                               0.000000   
+          25\%                               0.000000   
+          50\%                               0.000000   
+          75\%                               0.000000   
+          max                               1.000000   
+          
+          Description  12 PENCILS SMALL TUBE RED RETROSPOT  12 PENCILS SMALL TUBE SKULL  \textbackslash{}
+          count                                 392.000000                   392.000000   
+          mean                                    0.017857                     0.017857   
+          std                                     0.132601                     0.132601   
+          min                                     0.000000                     0.000000   
+          25\%                                     0.000000                     0.000000   
+          50\%                                     0.000000                     0.000000   
+          75\%                                     0.000000                     0.000000   
+          max                                     1.000000                     1.000000   
+          
+          Description  12 PENCILS TALL TUBE POSY  12 PENCILS TALL TUBE RED RETROSPOT  \textbackslash{}
+          count                       392.000000                          392.000000   
+          mean                          0.002551                            0.022959   
+          std                           0.050508                            0.149965   
+          min                           0.000000                            0.000000   
+          25\%                           0.000000                            0.000000   
+          50\%                           0.000000                            0.000000   
+          75\%                           0.000000                            0.000000   
+          max                           1.000000                            1.000000   
+          
+          Description  12 PENCILS TALL TUBE WOODLAND               {\ldots}                 \textbackslash{}
+          count                           392.000000               {\ldots}                  
+          mean                              0.015306               {\ldots}                  
+          std                               0.122924               {\ldots}                  
+          min                               0.000000               {\ldots}                  
+          25\%                               0.000000               {\ldots}                  
+          50\%                               0.000000               {\ldots}                  
+          75\%                               0.000000               {\ldots}                  
+          max                               1.000000               {\ldots}                  
+          
+          Description  WRAP VINTAGE PETALS  DESIGN  YELLOW COAT RACK PARIS FASHION  \textbackslash{}
+          count                         392.000000                      392.000000   
+          mean                            0.007653                        0.005102   
+          std                             0.087258                        0.071337   
+          min                             0.000000                        0.000000   
+          25\%                             0.000000                        0.000000   
+          50\%                             0.000000                        0.000000   
+          75\%                             0.000000                        0.000000   
+          max                             1.000000                        1.000000   
+          
+          Description  YELLOW GIANT GARDEN THERMOMETER  YELLOW SHARK HELICOPTER  \textbackslash{}
+          count                             392.000000               392.000000   
+          mean                                0.002551                 0.002551   
+          std                                 0.050508                 0.050508   
+          min                                 0.000000                 0.000000   
+          25\%                                 0.000000                 0.000000   
+          50\%                                 0.000000                 0.000000   
+          75\%                                 0.000000                 0.000000   
+          max                                 1.000000                 1.000000   
+          
+          Description  ZINC  STAR T-LIGHT HOLDER  ZINC FOLKART SLEIGH BELLS  \textbackslash{}
+          count                       392.000000                 392.000000   
+          mean                          0.002551                   0.017857   
+          std                           0.050508                   0.132601   
+          min                           0.000000                   0.000000   
+          25\%                           0.000000                   0.000000   
+          50\%                           0.000000                   0.000000   
+          75\%                           0.000000                   0.000000   
+          max                           1.000000                   1.000000   
+          
+          Description  ZINC HERB GARDEN CONTAINER  ZINC METAL HEART DECORATION  \textbackslash{}
+          count                        392.000000                   392.000000   
+          mean                           0.002551                     0.010204   
+          std                            0.050508                     0.100627   
+          min                            0.000000                     0.000000   
+          25\%                            0.000000                     0.000000   
+          50\%                            0.000000                     0.000000   
+          75\%                            0.000000                     0.000000   
+          max                            1.000000                     1.000000   
+          
+          Description  ZINC T-LIGHT HOLDER STAR LARGE  ZINC T-LIGHT HOLDER STARS SMALL  
+          count                            392.000000                       392.000000  
+          mean                               0.002551                         0.005102  
+          std                                0.050508                         0.071337  
+          min                                0.000000                         0.000000  
+          25\%                                0.000000                         0.000000  
+          50\%                                0.000000                         0.000000  
+          75\%                                0.000000                         0.000000  
+          max                                1.000000                         1.000000  
+          
+          [8 rows x 1562 columns]
+\end{Verbatim}
+            
     \begin{Verbatim}[commandchars=\\\{\}]
-/home/mahmoud/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
-  'precision', 'predicted', average, warn\_for)
+{\color{incolor}In [{\color{incolor}101}]:} \PY{n}{frequent\PYZus{}itemsets} \PY{o}{=} \PY{n}{apriori}\PY{p}{(}\PY{n}{french\PYZus{}basket\PYZus{}sg}\PY{p}{,} \PY{n}{min\PYZus{}support} \PY{o}{=} \PY{l+m+mf}{0.05}\PY{p}{,} \PY{n}{use\PYZus{}colnames} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+          
+          \PY{n}{frequent\PYZus{}itemsets}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{support}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
 
-    \end{Verbatim}
 
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}101}]:}      support                              itemsets
+          46  0.188776                  (RABBIT NIGHT LIGHT)
+          52  0.181122       (RED TOADSTOOL LED NIGHT LIGHT)
+          44  0.170918    (PLASTERS IN TIN WOODLAND ANIMALS)
+          40  0.168367       (PLASTERS IN TIN CIRCUS PARADE)
+          59  0.158163  (ROUND SNACK BOXES SET OF4 WOODLAND)
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}102}]:} \PY{n}{frequent\PYZus{}itemsets}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{support}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{tail}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}102}]:}     support                                           itemsets
+          6   0.05102                            (BLUE HARMONICA IN BOX)
+          32  0.05102                   (MINI LIGHTS WOODLAND MUSHROOMS)
+          34  0.05102                    (PACK OF 20 NAPKINS RED APPLES)
+          70  0.05102                          (SPACEBOY CHILDRENS BOWL)
+          79  0.05102  (ALARM CLOCK BAKELIKE RED, ROUND SNACK BOXES S{\ldots}
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}112}]:} \PY{n}{con\PYZus{}rules} \PY{o}{=} \PY{n}{association\PYZus{}rules}\PY{p}{(}\PY{n}{frequent\PYZus{}itemsets}\PY{p}{,} \PY{n}{metric} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{confidence}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{min\PYZus{}threshold} \PY{o}{=} \PY{l+m+mf}{0.7}\PY{p}{)}
+          \PY{n}{con\PYZus{}rules}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{confidence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}112}]:}                                           antecedents  \textbackslash{}
+          25  (SET/6 RED SPOTTY PAPER PLATES, SET/20 RED RET{\ldots}   
+          24  (SET/6 RED SPOTTY PAPER CUPS, SET/20 RED RETRO{\ldots}   
+          18                    (SET/6 RED SPOTTY PAPER PLATES)   
+          7                        (CHILDRENS CUTLERY SPACEBOY)   
+          10                     (PACK OF 6 SKULL PAPER PLATES)   
+          6                      (CHILDRENS CUTLERY DOLLY GIRL)   
+          17                      (SET/6 RED SPOTTY PAPER CUPS)   
+          21  (ALARM CLOCK BAKELIKE RED, ALARM CLOCK BAKELIK{\ldots}   
+          20  (ALARM CLOCK BAKELIKE GREEN, ALARM CLOCK BAKEL{\ldots}   
+          3                          (ALARM CLOCK BAKELIKE RED)   
+          2                        (ALARM CLOCK BAKELIKE GREEN)   
+          23  (SET/6 RED SPOTTY PAPER CUPS, SET/6 RED SPOTTY{\ldots}   
+          19  (ALARM CLOCK BAKELIKE GREEN, ALARM CLOCK BAKEL{\ldots}   
+          9                        (PACK OF 6 SKULL PAPER CUPS)   
+          15                    (SET/6 RED SPOTTY PAPER PLATES)   
+          4                          (ALARM CLOCK BAKELIKE RED)   
+          27                    (SET/6 RED SPOTTY PAPER PLATES)   
+          22  (PLASTERS IN TIN SPACEBOY, PLASTERS IN TIN CIR{\ldots}   
+          16               (SET/20 RED RETROSPOT PAPER NAPKINS)   
+          14               (SET/20 RED RETROSPOT PAPER NAPKINS)   
+          0                        (ALARM CLOCK BAKELIKE GREEN)   
+          12                         (PLASTERS IN TIN SPACEBOY)   
+          28               (SET/20 RED RETROSPOT PAPER NAPKINS)   
+          13                      (SET/6 RED SPOTTY PAPER CUPS)   
+          1                         (ALARM CLOCK BAKELIKE PINK)   
+          5                         (ALARM CLOCK BAKELIKE PINK)   
+          26                      (SET/6 RED SPOTTY PAPER CUPS)   
+          11                        (PLASTERS IN TIN STRONGMAN)   
+          8                              (DOLLY GIRL LUNCH BOX)   
+          
+                                                    consequents  antecedent support  \textbackslash{}
+          25                      (SET/6 RED SPOTTY PAPER CUPS)            0.102041   
+          24                    (SET/6 RED SPOTTY PAPER PLATES)            0.102041   
+          18                      (SET/6 RED SPOTTY PAPER CUPS)            0.127551   
+          7                      (CHILDRENS CUTLERY DOLLY GIRL)            0.068878   
+          10                       (PACK OF 6 SKULL PAPER CUPS)            0.056122   
+          6                        (CHILDRENS CUTLERY SPACEBOY)            0.071429   
+          17                    (SET/6 RED SPOTTY PAPER PLATES)            0.137755   
+          21                       (ALARM CLOCK BAKELIKE GREEN)            0.073980   
+          20                         (ALARM CLOCK BAKELIKE RED)            0.073980   
+          3                        (ALARM CLOCK BAKELIKE GREEN)            0.094388   
+          2                          (ALARM CLOCK BAKELIKE RED)            0.096939   
+          23               (SET/20 RED RETROSPOT PAPER NAPKINS)            0.122449   
+          19                        (ALARM CLOCK BAKELIKE PINK)            0.079082   
+          9                      (PACK OF 6 SKULL PAPER PLATES)            0.063776   
+          15               (SET/20 RED RETROSPOT PAPER NAPKINS)            0.127551   
+          4                         (ALARM CLOCK BAKELIKE PINK)            0.094388   
+          27  (SET/6 RED SPOTTY PAPER CUPS, SET/20 RED RETRO{\ldots}            0.127551   
+          22                 (PLASTERS IN TIN WOODLAND ANIMALS)            0.089286   
+          16                    (SET/6 RED SPOTTY PAPER PLATES)            0.132653   
+          14                      (SET/6 RED SPOTTY PAPER CUPS)            0.132653   
+          0                         (ALARM CLOCK BAKELIKE PINK)            0.096939   
+          12                 (PLASTERS IN TIN WOODLAND ANIMALS)            0.137755   
+          28  (SET/6 RED SPOTTY PAPER CUPS, SET/6 RED SPOTTY{\ldots}            0.132653   
+          13               (SET/20 RED RETROSPOT PAPER NAPKINS)            0.137755   
+          1                        (ALARM CLOCK BAKELIKE GREEN)            0.102041   
+          5                          (ALARM CLOCK BAKELIKE RED)            0.102041   
+          26  (SET/6 RED SPOTTY PAPER PLATES, SET/20 RED RET{\ldots}            0.137755   
+          11                    (PLASTERS IN TIN CIRCUS PARADE)            0.081633   
+          8                                (SPACEBOY LUNCH BOX)            0.099490   
+          
+              consequent support   support  confidence       lift  leverage  conviction  
+          25            0.137755  0.099490    0.975000   7.077778  0.085433   34.489796  
+          24            0.127551  0.099490    0.975000   7.644000  0.086474   34.897959  
+          18            0.137755  0.122449    0.960000   6.968889  0.104878   21.556122  
+          7             0.071429  0.063776    0.925926  12.962963  0.058856   12.535714  
+          10            0.063776  0.051020    0.909091  14.254545  0.047441   10.298469  
+          6             0.068878  0.063776    0.892857  12.962963  0.058856    8.690476  
+          17            0.127551  0.122449    0.888889   6.968889  0.104878    7.852041  
+          21            0.096939  0.063776    0.862069   8.892922  0.056604    6.547194  
+          20            0.094388  0.063776    0.862069   9.133271  0.056793    6.565689  
+          3             0.096939  0.079082    0.837838   8.642959  0.069932    5.568878  
+          2             0.094388  0.079082    0.815789   8.642959  0.069932    4.916181  
+          23            0.132653  0.099490    0.812500   6.125000  0.083247    4.625850  
+          19            0.102041  0.063776    0.806452   7.903226  0.055706    4.639456  
+          9             0.056122  0.051020    0.800000  14.254545  0.047441    4.719388  
+          15            0.132653  0.102041    0.800000   6.030769  0.085121    4.336735  
+          4             0.102041  0.073980    0.783784   7.681081  0.064348    4.153061  
+          27            0.102041  0.099490    0.780000   7.644000  0.086474    4.081633  
+          22            0.170918  0.068878    0.771429   4.513433  0.053617    3.627232  
+          16            0.127551  0.102041    0.769231   6.030769  0.085121    3.780612  
+          14            0.137755  0.102041    0.769231   5.584046  0.083767    3.736395  
+          0             0.102041  0.073980    0.763158   7.478947  0.064088    3.791383  
+          12            0.170918  0.104592    0.759259   4.442233  0.081047    3.443878  
+          28            0.122449  0.099490    0.750000   6.125000  0.083247    3.510204  
+          13            0.132653  0.102041    0.740741   5.584046  0.083767    3.345481  
+          1             0.096939  0.073980    0.725000   7.478947  0.064088    3.283859  
+          5             0.094388  0.073980    0.725000   7.681081  0.064348    3.293135  
+          26            0.102041  0.099490    0.722222   7.077778  0.085433    3.232653  
+          11            0.168367  0.058673    0.718750   4.268939  0.044929    2.956916  
+          8             0.125000  0.071429    0.717949   5.743590  0.058992    3.102273  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}111}]:} \PY{n}{lift\PYZus{}rules} \PY{o}{=} \PY{n}{association\PYZus{}rules}\PY{p}{(}\PY{n}{frequent\PYZus{}itemsets}\PY{p}{,} \PY{n}{metric} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{lift}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{min\PYZus{}threshold} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{)}
+          \PY{n}{lift\PYZus{}rules}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lift}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}111}]:}                                           antecedents  \textbackslash{}
+          38                       (PACK OF 6 SKULL PAPER CUPS)   
+          39                     (PACK OF 6 SKULL PAPER PLATES)   
+          8                      (CHILDRENS CUTLERY DOLLY GIRL)   
+          9                        (CHILDRENS CUTLERY SPACEBOY)   
+          69  (ALARM CLOCK BAKELIKE GREEN, ALARM CLOCK BAKEL{\ldots}   
+          
+                                 consequents  antecedent support  consequent support  \textbackslash{}
+          38  (PACK OF 6 SKULL PAPER PLATES)            0.063776            0.056122   
+          39    (PACK OF 6 SKULL PAPER CUPS)            0.056122            0.063776   
+          8     (CHILDRENS CUTLERY SPACEBOY)            0.071429            0.068878   
+          9   (CHILDRENS CUTLERY DOLLY GIRL)            0.068878            0.071429   
+          69      (ALARM CLOCK BAKELIKE RED)            0.073980            0.094388   
+          
+               support  confidence       lift  leverage  conviction  
+          38  0.051020    0.800000  14.254545  0.047441    4.719388  
+          39  0.051020    0.909091  14.254545  0.047441   10.298469  
+          8   0.063776    0.892857  12.962963  0.058856    8.690476  
+          9   0.063776    0.925926  12.962963  0.058856   12.535714  
+          69  0.063776    0.862069   9.133271  0.056793    6.565689  
+\end{Verbatim}
+            
     \subsection{Problem 2}\label{problem-2}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+Load the \emph{Extended Bakery} dataset (\textbf{75000-out2-binary.csv})
+into Python using a Pandas dataframe. Calculate the binary correlation
+coefficient Φ for the \emph{Chocolate Coffee} and \emph{Chocolate Cake}
+items. Are these two items symmetric binary variables? Provide
+supporting calculations. Would the association rules \{\textbf{Chocolate
+Coffee}\} ⇒ \{\textbf{Chocolate Cake}\} have the same value for Φ as
+\{\textbf{Chocolate Cake}\} ⇒ \{\textbf{Chocolate Coffee}\}?
 
-Load the \textbf{Breast Cancer Wisconsin (Diagnostic)} sample dataset
-from the \textbf{UCI Machine Learning Repository} (The discrete version
-at: \textbf{breast-cancer-wisconsin.data}) into Python using a Pandas
-dataframe. Induce a binary Decision Tree with a minimum of 2 instances
-in the leaves, no splits of subsets below 5, and a maximal tree depth of
-2 (use the default Gini criterion). Calculate the Entropy, Gini, and
-Misclassification Error of the first split - what is the Information
-Gain? What is the feature selected for the first split, and what value
-determines the decision boundary?
+    \subsubsection{Answer :-}\label{answer--}
 
-    \subsubsection{Answer}\label{answer}
+The binary correlation is 0.4856. These items are assymmetric binary
+variables.
 
-Entropy of the first split left child: 0.18411742692826688
+s(\{Chocolate Cake\}) = 0.0835 s(\{Chocolate Coffee\}) = 0.08314
+s(\{Chocolate Cake\},\{Chocolate Coffee\}) = 0.4404
 
-Entropy of the first split right child: 0.6144552279266028
-
-Total Entropy first split: 0.7985726548548697
-
-Gini of the first split left child: 0.05437918724632018
-
-Gini of the first split right child:0.2575857338820302
-
-Total Gini first split: 0.3119649211283504
-
-Misclassification of the first split left child: 0.027972027972028024
-
-Misclassification of the first split right child: 0.1518518518518519
-
-Total Misclassification first split: 0.17982387982387993
-
-The information gain of first split: 0.5789756086483544
-
-The feature for the first split is Uniformity of Cell Size. The decision
-boundary in this feature is 2.5.
+The correlation coefficient is the same for both rules \{Chocolate
+Coffee\} -\textgreater{} \{Chocolate Cake\} and \{Chocolate Cake\}
+-\textgreater{} \{Chocolate Coffee\} because the correlation coefficient
+is invariant.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{breast} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{https://archive.ics.uci.edu/ml/machine\PYZhy{}learning\PYZhy{}databases/breast\PYZhy{}cancer\PYZhy{}wisconsin/breast\PYZhy{}cancer\PYZhy{}wisconsin.data}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{header}\PY{o}{=}\PY{k+kc}{None}\PY{p}{)}
-         \PY{n}{breast}\PY{o}{.}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample code number}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Clump Thickness}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Uniformity of Cell Size}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Uniformity of Cell Shape}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} 
-                         \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Marginal Adhesion}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Single Epithelial Cell Size}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bare Nuclei}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bland Chromatin}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} 
-                         \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Normal Nucleoli}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Mitoses}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
-         \PY{n}{breast\PYZus{}pd} \PY{o}{=} \PY{n}{breast}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample code number}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
-         \PY{n}{imp\PYZus{}breast\PYZus{}pd} \PY{o}{=} \PY{n}{breast\PYZus{}pd}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{n}{to\PYZus{}replace}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{?}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{value}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
-         \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{isna}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)} \PY{c+c1}{\PYZsh{}All the nan values are in Bare Nuclei column}
+{\color{incolor}In [{\color{incolor}4}]:} \PY{n}{intial\PYZus{}bakery\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{75000\PYZhy{}out2\PYZhy{}binary.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{intial\PYZus{}bakery\PYZus{}df}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}15}]:} Clump Thickness                0
-         Uniformity of Cell Size        0
-         Uniformity of Cell Shape       0
-         Marginal Adhesion              0
-         Single Epithelial Cell Size    0
-         Bare Nuclei                    0
-         Bland Chromatin                0
-         Normal Nucleoli                0
-         Mitoses                        0
-         Class:                         0
-         dtype: int64
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}16}]:} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}16}]:}        Clump Thickness  Uniformity of Cell Size  Uniformity of Cell Shape  \textbackslash{}
-         count       699.000000               699.000000                699.000000   
-         mean          4.417740                 3.134478                  3.207439   
-         std           2.815741                 3.051459                  2.971913   
-         min           1.000000                 1.000000                  1.000000   
-         25\%           2.000000                 1.000000                  1.000000   
-         50\%           4.000000                 1.000000                  1.000000   
-         75\%           6.000000                 5.000000                  5.000000   
-         max          10.000000                10.000000                 10.000000   
-         
-                Marginal Adhesion  Single Epithelial Cell Size  Bland Chromatin  \textbackslash{}
-         count         699.000000                   699.000000       699.000000   
-         mean            2.806867                     3.216023         3.437768   
-         std             2.855379                     2.214300         2.438364   
-         min             1.000000                     1.000000         1.000000   
-         25\%             1.000000                     2.000000         2.000000   
-         50\%             1.000000                     2.000000         3.000000   
-         75\%             4.000000                     4.000000         5.000000   
-         max            10.000000                    10.000000        10.000000   
-         
-                Normal Nucleoli     Mitoses      Class:  
-         count       699.000000  699.000000  699.000000  
-         mean          2.866953    1.589413    2.689557  
-         std           3.053634    1.715078    0.951273  
-         min           1.000000    1.000000    2.000000  
-         25\%           1.000000    1.000000    2.000000  
-         50\%           1.000000    1.000000    2.000000  
-         75\%           4.000000    1.000000    4.000000  
-         max          10.000000   10.000000    4.000000  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}17}]:} \PY{n}{breast\PYZus{}tree} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}leaf} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}split} \PY{o}{=} \PY{l+m+mi}{5}\PY{p}{)}
-         \PY{n}{fitted\PYZus{}breast} \PY{o}{=} \PY{n}{breast\PYZus{}tree}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bare Nuclei}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
-         \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{columns}\PY{p}{[}\PY{n}{fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{feature}\PY{p}{]} \PY{c+c1}{\PYZsh{}Order of splits}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}17}]:} Index(['Uniformity of Cell Size', 'Bland Chromatin', 'Mitoses', 'Mitoses',
-                'Uniformity of Cell Shape', 'Mitoses', 'Mitoses'],
-               dtype='object')
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{fitted\PYZus{}breast}\PY{o}{.}\PY{n}{feature\PYZus{}importances\PYZus{}}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}18}]:} array([0.        , 0.88020446, 0.07898489, 0.        , 0.        ,
-                0.        , 0.04081065, 0.        ])
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}19}]:} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bare Nuclei}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bare Nuclei}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{float64}\PY{p}{)}
-         \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 699 entries, 0 to 698
-Data columns (total 10 columns):
-Clump Thickness                699 non-null int64
-Uniformity of Cell Size        699 non-null int64
-Uniformity of Cell Shape       699 non-null int64
-Marginal Adhesion              699 non-null int64
-Single Epithelial Cell Size    699 non-null int64
-Bare Nuclei                    699 non-null float64
-Bland Chromatin                699 non-null int64
-Normal Nucleoli                699 non-null int64
-Mitoses                        699 non-null int64
-Class:                         699 non-null int64
-dtypes: float64(1), int64(9)
-memory usage: 54.7 KB
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}20}]:} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{isna}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}20}]:} Clump Thickness                0
-         Uniformity of Cell Size        0
-         Uniformity of Cell Shape       0
-         Marginal Adhesion              0
-         Single Epithelial Cell Size    0
-         Bare Nuclei                    0
-         Bland Chromatin                0
-         Normal Nucleoli                0
-         Mitoses                        0
-         Class:                         0
-         dtype: int64
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}21}]:} \PY{n}{new\PYZus{}fitted\PYZus{}breast} \PY{o}{=} \PY{n}{breast\PYZus{}tree}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
-         \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{columns}\PY{p}{[}\PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{feature}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}21}]:} Index(['Uniformity of Cell Size', 'Bare Nuclei', 'Mitoses', 'Mitoses',
-                'Uniformity of Cell Shape', 'Mitoses', 'Mitoses'],
-               dtype='object')
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}22}]:} \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{feature\PYZus{}importances\PYZus{}}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}22}]:} array([0.        , 0.87550059, 0.07856279, 0.        , 0.        ,
-                0.04593662, 0.        , 0.        , 0.        ])
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}23}]:} \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{threshold}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}23}]:} array([ 2.5,  5.5, -2. , -2. ,  2.5, -2. , -2. ])
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}24}]:} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}24}]:}        Clump Thickness  Uniformity of Cell Size  Uniformity of Cell Shape  \textbackslash{}
-         count       699.000000               699.000000                699.000000   
-         mean          4.417740                 3.134478                  3.207439   
-         std           2.815741                 3.051459                  2.971913   
-         min           1.000000                 1.000000                  1.000000   
-         25\%           2.000000                 1.000000                  1.000000   
-         50\%           4.000000                 1.000000                  1.000000   
-         75\%           6.000000                 5.000000                  5.000000   
-         max          10.000000                10.000000                 10.000000   
-         
-                Marginal Adhesion  Single Epithelial Cell Size  Bare Nuclei  \textbackslash{}
-         count         699.000000                   699.000000   699.000000   
-         mean            2.806867                     3.216023     3.463519   
-         std             2.855379                     2.214300     3.640708   
-         min             1.000000                     1.000000     0.000000   
-         25\%             1.000000                     2.000000     1.000000   
-         50\%             1.000000                     2.000000     1.000000   
-         75\%             4.000000                     4.000000     5.000000   
-         max            10.000000                    10.000000    10.000000   
-         
-                Bland Chromatin  Normal Nucleoli     Mitoses      Class:  
-         count       699.000000       699.000000  699.000000  699.000000  
-         mean          3.437768         2.866953    1.589413    2.689557  
-         std           2.438364         3.053634    1.715078    0.951273  
-         min           1.000000         1.000000    1.000000    2.000000  
-         25\%           2.000000         1.000000    1.000000    2.000000  
-         50\%           3.000000         1.000000    1.000000    2.000000  
-         75\%           5.000000         4.000000    1.000000    4.000000  
-         max          10.000000        10.000000   10.000000    4.000000  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}25}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{First Node Entropy: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}entropy}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{First Node Gini: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{my\PYZus{}gini}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{First Node missclassification: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}misclass}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-First Node Entropy:  0.9293179372497982
-First Node Gini:  0.4518124195406886
-First Node missclassification:  0.3447782546494993
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}26}]:} \PY{n}{index\PYZus{}right} \PY{o}{=} \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{children\PYZus{}right}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{c+c1}{\PYZsh{}4}
-         \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{impurity}\PY{p}{[}\PY{n}{index\PYZus{}right}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}26}]:} 0.2575857338820302
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}27}]:} \PY{n}{index\PYZus{}left} \PY{o}{=} \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{children\PYZus{}left}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{c+c1}{\PYZsh{} 1}
-         \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{impurity}\PY{p}{[}\PY{n}{index\PYZus{}left}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}27}]:} 0.05437918724632007
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}28}]:} \PY{n}{tresh} \PY{o}{=} \PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{threshold}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
-         \PY{n+nb}{print}\PY{p}{(}\PY{n}{tresh}\PY{p}{)}
-         \PY{n}{f1} \PY{o}{=} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{columns}\PY{p}{[}\PY{n}{new\PYZus{}fitted\PYZus{}breast}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{feature}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]}
-         \PY{n+nb}{print}\PY{p}{(}\PY{n}{f1}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-2.5
-Uniformity of Cell Size
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}29}]:} \PY{n}{rightchild} \PY{o}{=} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{n}{f1}\PY{p}{]} \PY{o}{\PYZgt{}} \PY{n}{tresh}\PY{p}{]}
-         \PY{n}{leftchild} \PY{o}{=} \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{n}{f1}\PY{p}{]} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{tresh}\PY{p}{]}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}30}]:} \PY{n}{rightchild}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}30}]:}        Clump Thickness  Uniformity of Cell Size  Uniformity of Cell Shape  \textbackslash{}
-         count       270.000000               270.000000                270.000000   
-         mean          6.766667                 6.359259                  6.214815   
-         std           2.576921                 2.646560                  2.708613   
-         min           1.000000                 3.000000                  1.000000   
-         25\%           5.000000                 4.000000                  4.000000   
-         50\%           7.000000                 6.000000                  6.000000   
-         75\%           9.000000                 9.000000                  8.000000   
-         max          10.000000                10.000000                 10.000000   
-         
-                Marginal Adhesion  Single Epithelial Cell Size  Bare Nuclei  \textbackslash{}
-         count         270.000000                   270.000000   270.000000   
-         mean            5.211111                     5.074074     6.840741   
-         std             3.246369                     2.468025     3.606145   
-         min             1.000000                     2.000000     0.000000   
-         25\%             2.000000                     3.000000     3.000000   
-         50\%             5.000000                     5.000000     9.000000   
-         75\%             8.000000                     6.000000    10.000000   
-         max            10.000000                    10.000000    10.000000   
-         
-                Bland Chromatin  Normal Nucleoli     Mitoses      Class:  
-         count       270.000000       270.000000  270.000000  270.000000  
-         mean          5.600000         5.514815    2.418519    3.696296  
-         std           2.442499         3.404262    2.462890    0.719087  
-         min           1.000000         1.000000    1.000000    2.000000  
-         25\%           3.000000         3.000000    1.000000    4.000000  
-         50\%           6.000000         5.000000    1.000000    4.000000  
-         75\%           7.000000         9.000000    3.000000    4.000000  
-         max          10.000000        10.000000   10.000000    4.000000  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}31}]:} \PY{n}{leftchild}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}31}]:}        Clump Thickness  Uniformity of Cell Size  Uniformity of Cell Shape  \textbackslash{}
-         count       429.000000               429.000000                429.000000   
-         mean          2.939394                 1.104895                  1.314685   
-         std           1.756446                 0.306776                  0.704653   
-         min           1.000000                 1.000000                  1.000000   
-         25\%           1.000000                 1.000000                  1.000000   
-         50\%           3.000000                 1.000000                  1.000000   
-         75\%           4.000000                 1.000000                  1.000000   
-         max          10.000000                 2.000000                  4.000000   
-         
-                Marginal Adhesion  Single Epithelial Cell Size  Bare Nuclei  \textbackslash{}
-         count         429.000000                   429.000000   429.000000   
-         mean            1.293706                     2.046620     1.337995   
-         std             0.855156                     0.786967     1.311337   
-         min             1.000000                     1.000000     0.000000   
-         25\%             1.000000                     2.000000     1.000000   
-         50\%             1.000000                     2.000000     1.000000   
-         75\%             1.000000                     2.000000     1.000000   
-         max            10.000000                    10.000000    10.000000   
-         
-                Bland Chromatin  Normal Nucleoli     Mitoses      Class:  
-         count       429.000000       429.000000  429.000000  429.000000  
-         mean          2.076923         1.200466    1.067599    2.055944  
-         std           1.068300         0.846598    0.527380    0.330170  
-         min           1.000000         1.000000    1.000000    2.000000  
-         25\%           1.000000         1.000000    1.000000    2.000000  
-         50\%           2.000000         1.000000    1.000000    2.000000  
-         75\%           3.000000         1.000000    1.000000    2.000000  
-         max           7.000000        10.000000    8.000000    4.000000  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}32}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Left child entropy: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}entropy}\PY{p}{(}\PY{n}{leftchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Left child gini: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}gini}\PY{p}{(}\PY{n}{leftchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Left child missclassification: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{my\PYZus{}misclass}\PY{p}{(}\PY{n}{leftchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-Left child entropy:  0.18411742692826688
-Left child gini:  0.05437918724632018
-Left child missclassification:  0.027972027972028024
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}33}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Right Child entropy: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}entropy}\PY{p}{(}\PY{n}{rightchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Right Child gini: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}gini}\PY{p}{(}\PY{n}{rightchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Right Child missclassification: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{my\PYZus{}misclass}\PY{p}{(}\PY{n}{rightchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-Right Child entropy:  0.6144552279266028
-Right Child gini:  0.2575857338820302
-Right Child missclassification:  0.1518518518518519
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}34}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Infomation Gain from Uniformity of Cell Size: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{information\PYZus{}gain}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{,} \PY{n}{leftchild}\PY{p}{,} \PY{n}{rightchild}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-Infomation Gain from Uniformity of Cell Size:  0.5789756086483544
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}35}]:} \PY{n}{breast\PYZus{}train\PYZus{}data}\PY{p}{,} \PY{n}{breast\PYZus{}test\PYZus{}data}\PY{p}{,}\PY{n}{breast\PYZus{}train\PYZus{}class}\PY{p}{,} \PY{n}{breast\PYZus{}test\PYZus{}class} \PY{o}{=} \PY{n}{model\PYZus{}selection}\PY{o}{.}\PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{,}
-                                                                             \PY{n}{imp\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,}
-                                                                             \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}36}]:} \PY{n}{breast\PYZus{}tree} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}leaf} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}split} \PY{o}{=} \PY{l+m+mi}{5}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{breast\PYZus{}train\PYZus{}data}\PY{p}{,} \PY{n}{breast\PYZus{}train\PYZus{}class}\PY{p}{)}
-         
-         \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Tree with depth classification\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-         \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{classification\PYZus{}report}\PY{p}{(}\PY{n}{breast\PYZus{}test\PYZus{}class}\PY{p}{,} \PY{n}{breast\PYZus{}tree}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{breast\PYZus{}test\PYZus{}data}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-         \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Confusion Matrix\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-         \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{confusion\PYZus{}matrix}\PY{p}{(}\PY{n}{breast\PYZus{}test\PYZus{}class}\PY{p}{,}\PY{n}{breast\PYZus{}tree}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{breast\PYZus{}test\PYZus{}data}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-              precision    recall  f1-score   support
-
-           2       0.95      0.93      0.94       102
-           4       0.82      0.87      0.85        38
-
-   micro avg       0.91      0.91      0.91       140
-   macro avg       0.89      0.90      0.89       140
-weighted avg       0.92      0.91      0.91       140
-
-[[95  7]
- [ 5 33]]
-
-    \end{Verbatim}
-
-    \subsection{Problem 3}\label{problem-3}
-
-Load the \textbf{Breast Cancer Wisconsin (Diagnostic)} sample dataset
-from the \textbf{UCI Machine Learning Repository} (The continuous
-version at: \textbf{wdbc.data}) into Python using a Pandas dataframe.
-Induce the same binary Decision Tree as above (now using the continuous
-data) but perform a PCA dimensionality reduction beforehand. Using only
-the first principal component of the data for a model fit, what is the
-F1, Precision, and Recall of the PCA-based single factor model compared
-to the original (continuous) data? Repeat using the first and second
-principal components. Using the Confusion Matrix, what are the values
-for FP and TP as well as FPR/TPR? Is using continuous data in this case
-beneficial within the model? How?
-
-    \subsubsection{Answer}\label{answer}
-
-\begin{longtable}[]{@{}lllll@{}}
-\toprule
-& & micro & macro & weighted\tabularnewline
-\midrule
-\endhead
-\textbf{PC1} & F1 & 0.92 & 0.92 & 0.92\tabularnewline
-& precision & 0.92 & 0.93 & 0.93\tabularnewline
-& recall & 0.92 & 0.91 & 0.92\tabularnewline
-& & & &\tabularnewline
-\textbf{Original} & F1 & 0.87 & 0.85 & 0.87\tabularnewline
-& precision & 0.87 & 0.84 & 0.89\tabularnewline
-& recall & 0.87 & 0.88 & 0.87\tabularnewline
-\bottomrule
-\end{longtable}
-
-The PC1 classifier improved on the classifier trained on the original
-dataset. This improvement was small only contributing 1\%-2\%.
-
-\paragraph{Confusion Matrix of
-Original}\label{confusion-matrix-of-original}
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-& B & M\tabularnewline
-\midrule
-\endhead
-\textbf{B} & 68 & 12\tabularnewline
-\textbf{M} & 3 & 31\tabularnewline
-\bottomrule
-\end{longtable}
-
-The \textbf{FP} for B is 12 and the \textbf{TP} for B is 68. The
-\textbf{FP} for M is 3 and the \textbf{TP} for M is 31.
-
-\paragraph{Confusion Matrix of 1 PCA
-components}\label{confusion-matrix-of-1-pca-components}
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-& B & M\tabularnewline
-\midrule
-\endhead
-\textbf{B} & 63 & 12\tabularnewline
-\textbf{M} & 8 & 42\tabularnewline
-\bottomrule
-\end{longtable}
-
-The \textbf{FP} for B is 12 and the \textbf{TP} for B is 63. The
-\textbf{FP} for M is 8 and the \textbf{TP} for M is 42.
-
-\paragraph{Confusion Matrix of 2 PCA
-components}\label{confusion-matrix-of-2-pca-components}
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-& B & M\tabularnewline
-\midrule
-\endhead
-\textbf{B} & 77 & 0\tabularnewline
-\textbf{M} & 7 & 30\tabularnewline
-\bottomrule
-\end{longtable}
-
-The \textbf{FP} for B is 0 and the \textbf{TP} for B is 77. The
-\textbf{FP} for M is 7 and the \textbf{TP} for M is 30.
-
-\begin{longtable}[]{@{}lllll@{}}
-\toprule
-& & PC1 & PC2 & Original\tabularnewline
-\midrule
-\endhead
-TPR & B & 0.8873 & 0.9166 & 0.957746\tabularnewline
-& M & 0.7777 & 1 & 0.720930\tabularnewline
-FPR & B & 0.2222 & 0 & 0.279069\tabularnewline
-& M & 0.1127 & 0.0833 & 0.042253\tabularnewline
-\bottomrule
-\end{longtable}
-
-PC2 has a better TPR than the original. Using continous data is
-beneficial because it reduces dimensionality and performs on par with
-discreete as far as precision and recall.
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}37}]:} \PY{n}{cont\PYZus{}breast\PYZus{}pd} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{https://archive.ics.uci.edu/ml/machine\PYZhy{}learning\PYZhy{}databases/breast\PYZhy{}cancer\PYZhy{}wisconsin/wdbc.data}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{header}\PY{o}{=}\PY{k+kc}{None}\PY{p}{)}
-         \PY{c+c1}{\PYZsh{}cont\PYZus{}breast\PYZus{}pd.columns = [\PYZdq{}ID\PYZdq{}, \PYZdq{}Diagnosis\PYZdq{},radius\PYZdq{},\PYZdq{}texture\PYZdq{}, \PYZdq{}perimeter\PYZdq{}, \PYZdq{}area\PYZdq{}, \PYZdq{}smoothness\PYZdq{},\PYZdq{}compactness\PYZdq{},}
-          \PY{c+c1}{\PYZsh{}                         \PYZdq{}concavity\PYZdq{},\PYZdq{}concave points\PYZdq{},\PYZdq{}symmetry\PYZdq{},\PYZdq{}fractal dimension\PYZdq{}]}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}38}]:} \PY{n}{cont\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 569 entries, 0 to 568
-Data columns (total 32 columns):
-0     569 non-null int64
-1     569 non-null object
-2     569 non-null float64
-3     569 non-null float64
-4     569 non-null float64
-5     569 non-null float64
-6     569 non-null float64
-7     569 non-null float64
-8     569 non-null float64
-9     569 non-null float64
-10    569 non-null float64
-11    569 non-null float64
-12    569 non-null float64
-13    569 non-null float64
-14    569 non-null float64
-15    569 non-null float64
-16    569 non-null float64
-17    569 non-null float64
-18    569 non-null float64
-19    569 non-null float64
-20    569 non-null float64
-21    569 non-null float64
-22    569 non-null float64
-23    569 non-null float64
-24    569 non-null float64
-25    569 non-null float64
-26    569 non-null float64
-27    569 non-null float64
-28    569 non-null float64
-29    569 non-null float64
-30    569 non-null float64
-31    569 non-null float64
-dtypes: float64(30), int64(1), object(1)
-memory usage: 142.3+ KB
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}39}]:} \PY{n}{data\PYZus{}cont\PYZus{}breast\PYZus{}pd} \PY{o}{=} \PY{n}{cont\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
-         \PY{n}{data\PYZus{}cont\PYZus{}breast\PYZus{}pd}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}39}]:}                2           3           4            5           6   \textbackslash{}
-         count  569.000000  569.000000  569.000000   569.000000  569.000000   
-         mean    14.127292   19.289649   91.969033   654.889104    0.096360   
-         std      3.524049    4.301036   24.298981   351.914129    0.014064   
-         min      6.981000    9.710000   43.790000   143.500000    0.052630   
-         25\%     11.700000   16.170000   75.170000   420.300000    0.086370   
-         50\%     13.370000   18.840000   86.240000   551.100000    0.095870   
-         75\%     15.780000   21.800000  104.100000   782.700000    0.105300   
-         max     28.110000   39.280000  188.500000  2501.000000    0.163400   
-         
-                        7           8           9           10          11     {\ldots}      \textbackslash{}
-         count  569.000000  569.000000  569.000000  569.000000  569.000000     {\ldots}       
-         mean     0.104341    0.088799    0.048919    0.181162    0.062798     {\ldots}       
-         std      0.052813    0.079720    0.038803    0.027414    0.007060     {\ldots}       
-         min      0.019380    0.000000    0.000000    0.106000    0.049960     {\ldots}       
-         25\%      0.064920    0.029560    0.020310    0.161900    0.057700     {\ldots}       
-         50\%      0.092630    0.061540    0.033500    0.179200    0.061540     {\ldots}       
-         75\%      0.130400    0.130700    0.074000    0.195700    0.066120     {\ldots}       
-         max      0.345400    0.426800    0.201200    0.304000    0.097440     {\ldots}       
-         
-                        22          23          24           25          26  \textbackslash{}
-         count  569.000000  569.000000  569.000000   569.000000  569.000000   
-         mean    16.269190   25.677223  107.261213   880.583128    0.132369   
-         std      4.833242    6.146258   33.602542   569.356993    0.022832   
-         min      7.930000   12.020000   50.410000   185.200000    0.071170   
-         25\%     13.010000   21.080000   84.110000   515.300000    0.116600   
-         50\%     14.970000   25.410000   97.660000   686.500000    0.131300   
-         75\%     18.790000   29.720000  125.400000  1084.000000    0.146000   
-         max     36.040000   49.540000  251.200000  4254.000000    0.222600   
-         
-                        27          28          29          30          31  
-         count  569.000000  569.000000  569.000000  569.000000  569.000000  
-         mean     0.254265    0.272188    0.114606    0.290076    0.083946  
-         std      0.157336    0.208624    0.065732    0.061867    0.018061  
-         min      0.027290    0.000000    0.000000    0.156500    0.055040  
-         25\%      0.147200    0.114500    0.064930    0.250400    0.071460  
-         50\%      0.211900    0.226700    0.099930    0.282200    0.080040  
-         75\%      0.339100    0.382900    0.161400    0.317900    0.092080  
-         max      1.058000    1.252000    0.291000    0.663800    0.207500  
-         
-         [8 rows x 30 columns]
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}40}]:} \PY{n}{pca\PYZus{}breast} \PY{o}{=} \PY{n}{PCA}\PY{p}{(}\PY{p}{)}
-         \PY{n}{fitted\PYZus{}pca} \PY{o}{=} \PY{n}{pca\PYZus{}breast}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{data\PYZus{}cont\PYZus{}breast\PYZus{}pd}\PY{p}{)}
-         \PY{n}{pca\PYZus{}breast\PYZus{}percent\PYZus{}var} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{around}\PY{p}{(}\PY{n}{pca\PYZus{}breast}\PY{o}{.}\PY{n}{explained\PYZus{}variance\PYZus{}ratio\PYZus{}}\PY{p}{,} \PY{l+m+mi}{6}\PY{p}{)}
-         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{pca\PYZus{}breast\PYZus{}percent\PYZus{}var}\PY{p}{)}\PY{p}{)}\PY{p}{:}
-             \PY{n+nb}{print}\PY{p}{(}\PY{n}{pca\PYZus{}breast\PYZus{}percent\PYZus{}var}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{,} \PY{n}{pca\PYZus{}breast\PYZus{}percent\PYZus{}var}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-98.2045 0.982045
-1.6176 0.016176
-0.1558 0.001558
-0.0121 0.000121
-0.0088 8.8e-05
-0.0007 7e-06
-0.00039999999999999996 4e-06
-9.999999999999999e-05 1e-06
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-0.0 0.0
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}41}]:} \PY{n}{first\PYZus{}pca\PYZus{}breast} \PY{o}{=} \PY{n}{PCA}\PY{p}{(}\PY{n}{n\PYZus{}components} \PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
-         \PY{n}{first\PYZus{}pca\PYZus{}comp} \PY{o}{=} \PY{n}{first\PYZus{}pca\PYZus{}breast}\PY{o}{.}\PY{n}{fit\PYZus{}transform}\PY{p}{(}\PY{n}{data\PYZus{}cont\PYZus{}breast\PYZus{}pd}\PY{p}{)}
-         \PY{n}{first\PYZus{}pca\PYZus{}breast}\PY{o}{.}\PY{n}{explained\PYZus{}variance\PYZus{}ratio\PYZus{}}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}41}]:} array([0.98204467])
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}42}]:} \PY{n}{first\PYZus{}pca\PYZus{}comp}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}42}]:} -1.9180907594508153e-14
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{breast\PYZus{}x}\PY{p}{,} \PY{n}{breast\PYZus{}x\PYZus{}test}\PY{p}{,} \PY{n}{breast\PYZus{}y}\PY{p}{,} \PY{n}{breast\PYZus{}y\PYZus{}test} \PY{o}{=} \PY{n}{model\PYZus{}selection}\PY{o}{.}\PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{first\PYZus{}pca\PYZus{}comp}\PY{p}{,}
-                                                                            \PY{n}{cont\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
-                                                                            \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{)}
-        \PY{n}{dt\PYZus{}breast} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}leaf} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,}\PY{n}{min\PYZus{}samples\PYZus{}split} \PY{o}{=} \PY{l+m+mi}{5}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{breast\PYZus{}x}\PY{p}{,} \PY{n}{breast\PYZus{}y}\PY{p}{)}
+{\color{outcolor}Out[{\color{outcolor}4}]:}        Transaction Number  Chocolate Cake    Lemon Cake   Casino Cake  \textbackslash{}
+        count        75000.000000    75000.000000  75000.000000  75000.000000   
+        mean         37500.500000        0.083533      0.083613      0.075013   
+        std          21650.779432        0.276689      0.276809      0.263415   
+        min              1.000000        0.000000      0.000000      0.000000   
+        25\%          18750.750000        0.000000      0.000000      0.000000   
+        50\%          37500.500000        0.000000      0.000000      0.000000   
+        75\%          56250.250000        0.000000      0.000000      0.000000   
+        max          75000.000000        1.000000      1.000000      1.000000   
         
+                 Opera Cake  Strawberry Cake  Truffle Cake  Chocolate Eclair  \textbackslash{}
+        count  75000.000000     75000.000000  75000.000000      75000.000000   
+        mean       0.082093         0.092640      0.082240          0.042373   
+        std        0.274509         0.289929      0.274732          0.201441   
+        min        0.000000         0.000000      0.000000          0.000000   
+        25\%        0.000000         0.000000      0.000000          0.000000   
+        50\%        0.000000         0.000000      0.000000          0.000000   
+        75\%        0.000000         0.000000      0.000000          0.000000   
+        max        1.000000         1.000000      1.000000          1.000000   
         
-        \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Tree with depth classification\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{classification\PYZus{}report}\PY{p}{(}\PY{n}{breast\PYZus{}y\PYZus{}test}\PY{p}{,} \PY{n}{dt\PYZus{}breast}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{breast\PYZus{}x\PYZus{}test}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-        \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Confusion Matrix\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{confusion\PYZus{}matrix}\PY{p}{(}\PY{n}{breast\PYZus{}y\PYZus{}test}\PY{p}{,}\PY{n}{dt\PYZus{}breast}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{breast\PYZus{}x\PYZus{}test}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{train\PYZus{}data}\PY{p}{,} \PY{n}{test\PYZus{}data}\PY{p}{,} \PY{n}{train\PYZus{}target}\PY{p}{,} \PY{n}{test\PYZus{}target} \PY{o}{=} \PY{n}{model\PYZus{}selection}\PY{o}{.}\PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{data\PYZus{}cont\PYZus{}breast\PYZus{}pd}\PY{p}{,}
-                                                                            \PY{n}{cont\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
-                                                                            \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{)}
-        \PY{n}{dt\PYZus{}cont\PYZus{}breast} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}leaf} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,}\PY{n}{min\PYZus{}samples\PYZus{}split} \PY{o}{=} \PY{l+m+mi}{5}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{train\PYZus{}data}\PY{p}{,} \PY{n}{train\PYZus{}target}\PY{p}{)}
+               Coffee Eclair  Vanilla Eclair       {\ldots}         Lemon Lemonade  \textbackslash{}
+        count   75000.000000    75000.000000       {\ldots}           75000.000000   
+        mean        0.109240        0.042520       {\ldots}               0.068240   
+        std         0.311942        0.201774       {\ldots}               0.252159   
+        min         0.000000        0.000000       {\ldots}               0.000000   
+        25\%         0.000000        0.000000       {\ldots}               0.000000   
+        50\%         0.000000        0.000000       {\ldots}               0.000000   
+        75\%         0.000000        0.000000       {\ldots}               0.000000   
+        max         1.000000        1.000000       {\ldots}               1.000000   
         
+               Raspberry Lemonade  Orange Juice     Green Tea  Bottled Water  \textbackslash{}
+        count        75000.000000  75000.000000  75000.000000   75000.000000   
+        mean             0.067747      0.091613      0.062467       0.075200   
+        std              0.251312      0.288481      0.242003       0.263716   
+        min              0.000000      0.000000      0.000000       0.000000   
+        25\%              0.000000      0.000000      0.000000       0.000000   
+        50\%              0.000000      0.000000      0.000000       0.000000   
+        75\%              0.000000      0.000000      0.000000       0.000000   
+        max              1.000000      1.000000      1.000000       1.000000   
         
-        \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Tree with depth classification\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{classification\PYZus{}report}\PY{p}{(}\PY{n}{test\PYZus{}target}\PY{p}{,} \PY{n}{dt\PYZus{}cont\PYZus{}breast}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{test\PYZus{}data}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-        \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Confusion Matrix\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{confusion\PYZus{}matrix}\PY{p}{(}\PY{n}{test\PYZus{}target}\PY{p}{,}\PY{n}{dt\PYZus{}cont\PYZus{}breast}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{test\PYZus{}data}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{two\PYZus{}pca\PYZus{}breast} \PY{o}{=} \PY{n}{PCA}\PY{p}{(}\PY{n}{n\PYZus{}components} \PY{o}{=}\PY{l+m+mi}{2}\PY{p}{)}
-        \PY{n}{two\PYZus{}pca\PYZus{}comp} \PY{o}{=} \PY{n}{two\PYZus{}pca\PYZus{}breast}\PY{o}{.}\PY{n}{fit\PYZus{}transform}\PY{p}{(}\PY{n}{data\PYZus{}cont\PYZus{}breast\PYZus{}pd}\PY{p}{)}
-        \PY{n}{two\PYZus{}pca\PYZus{}breast}\PY{o}{.}\PY{n}{explained\PYZus{}variance\PYZus{}ratio\PYZus{}}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{two\PYZus{}pca\PYZus{}comp}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{train2\PYZus{}data}\PY{p}{,} \PY{n}{test2\PYZus{}data}\PY{p}{,} \PY{n}{train2\PYZus{}target}\PY{p}{,} \PY{n}{test2\PYZus{}target} \PY{o}{=} \PY{n}{model\PYZus{}selection}\PY{o}{.}\PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{two\PYZus{}pca\PYZus{}comp}\PY{p}{,}
-                                                                            \PY{n}{cont\PYZus{}breast\PYZus{}pd}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
-                                                                            \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{)}
-        \PY{n}{dt\PYZus{}cont\PYZus{}breast} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{min\PYZus{}samples\PYZus{}leaf} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,}
-                                                \PY{n}{min\PYZus{}samples\PYZus{}split} \PY{o}{=} \PY{l+m+mi}{5}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{train2\PYZus{}data}\PY{p}{,} \PY{n}{train2\PYZus{}target}\PY{p}{)}
+                 Hot Coffee  Chocolate Coffee  Vanilla Frappuccino   Cherry Soda  \textbackslash{}
+        count  75000.000000      75000.000000         75000.000000  75000.000000   
+        mean       0.102667          0.083147             0.077467      0.061987   
+        std        0.303525          0.276106             0.267332      0.241133   
+        min        0.000000          0.000000             0.000000      0.000000   
+        25\%        0.000000          0.000000             0.000000      0.000000   
+        50\%        0.000000          0.000000             0.000000      0.000000   
+        75\%        0.000000          0.000000             0.000000      0.000000   
+        max        1.000000          1.000000             1.000000      1.000000   
         
+               Single Espresso  
+        count     75000.000000  
+        mean          0.067973  
+        std           0.251702  
+        min           0.000000  
+        25\%           0.000000  
+        50\%           0.000000  
+        75\%           0.000000  
+        max           1.000000  
         
-        \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Tree with depth classification\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{classification\PYZus{}report}\PY{p}{(}\PY{n}{test2\PYZus{}target}\PY{p}{,} \PY{n}{dt\PYZus{}cont\PYZus{}breast}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{test2\PYZus{}data}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-        \PY{c+c1}{\PYZsh{}print(\PYZdq{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}Confusion Matrix\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZhy{}\PYZbs{}n\PYZdq{})}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{metrics}\PY{o}{.}\PY{n}{confusion\PYZus{}matrix}\PY{p}{(}\PY{n}{test2\PYZus{}target}\PY{p}{,}\PY{n}{dt\PYZus{}cont\PYZus{}breast}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{test2\PYZus{}data}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+        [8 rows x 51 columns]
 \end{Verbatim}
-
-
-    \subsection{Problem 4}\label{problem-4}
-
-Simulate a binary classification dataset with a single feature using a
-mixture of normal distributions with NumPy(Hint: Generate two data
-frames with the random number and a class label, and combine them
-together). The normal distribution parameters \textbf{np.random.normal}
-should be (5,2) and (-5,2) for the pair of samples. Induce a binary
-Decision Tree of maximum depth 2, and obtain the threshold value for the
-feature in the first split. How does this value compare to the empirical
-distribution of the feature?
-
-    \subsubsection{Answer}\label{answer}
-
-The split threshold of the first split is -0.48002306 which is very
-close to the median of concatinated random datasets. The median is
-actually at -0.06113229204151116. This would make sense as a split
-because most of c1 will be above this threshold and most of c2 will be
-less than the threshold.
-
+            
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}43}]:} \PY{k+kn}{import} \PY{n+nn}{random}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}44}]:} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{seed}\PY{p}{(}\PY{l+m+mi}{267}\PY{p}{)} \PY{c+c1}{\PYZsh{}267}
-         \PY{n}{rand\PYZus{}data\PYZus{}1} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{normal}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{500} \PY{p}{)}
-         \PY{n}{rand\PYZus{}data\PYZus{}2} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{normal}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{1000}\PY{o}{\PYZhy{}}\PY{l+m+mi}{500}\PY{p}{)}
-         \PY{n}{class\PYZus{}1} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{repeat}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{500}\PY{p}{)}
-         \PY{n}{class\PYZus{}2} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{repeat}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{1000}\PY{o}{\PYZhy{}}\PY{l+m+mi}{500}\PY{p}{)}
-         \PY{n}{pd\PYZus{}1} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n+nb}{dict}\PY{p}{(}\PY{n+nb}{zip}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{f1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}1}\PY{p}{,}\PY{n}{class\PYZus{}1}\PY{p}{]}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-         \PY{n}{pd\PYZus{}2} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n+nb}{dict}\PY{p}{(}\PY{n+nb}{zip}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{f1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}2}\PY{p}{,}\PY{n}{class\PYZus{}2}\PY{p}{]}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-         \PY{n}{rand\PYZus{}data\PYZus{}frame} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{pd\PYZus{}1}\PY{p}{,}\PY{n}{pd\PYZus{}2}\PY{p}{]}\PY{p}{)}
-         \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}90}]:} \PY{n}{intial\PYZus{}bakery\PYZus{}df}\PY{p}{[}\PY{p}{(}\PY{n}{intial\PYZus{}bakery\PYZus{}df}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Chocolate Cake}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{)} \PY{o}{\PYZam{}} \PY{p}{(}\PY{n}{intial\PYZus{}bakery\PYZus{}df}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Chocolate Coffee}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{)}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Transaction Number}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}44}]:}                 f1
-         count  1000.000000
-         mean     -0.002313
-         std       5.293827
-         min     -10.353750
-         25\%      -4.923400
-         50\%      -0.061132
-         75\%       4.857598
-         max       9.926335
+{\color{outcolor}Out[{\color{outcolor}90}]:} 2962
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}45}]:} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{var}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}8}]:} \PY{n}{bake\PYZus{}f} \PY{o}{=} \PY{n}{apriori}\PY{p}{(}\PY{n}{intial\PYZus{}bakery\PYZus{}df}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Transaction Number}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{,} \PY{n}{min\PYZus{}support} \PY{o}{=} \PY{l+m+mf}{0.04}\PY{p}{,} \PY{n}{use\PYZus{}colnames} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+        \PY{n}{bake\PYZus{}f}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{support}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ascending} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}45}]:} 28.024599768152704
+{\color{outcolor}Out[{\color{outcolor}8}]:}      support                                   itemsets
+        7   0.109240                            (Coffee Eclair)
+        45  0.102667                               (Hot Coffee)
+        28  0.100747                             (Tuile Cookie)
+        18  0.093160                              (Cherry Tart)
+        4   0.092640                          (Strawberry Cake)
+        35  0.092573                           (Apricot Danish)
+        42  0.091613                             (Orange Juice)
+        22  0.090440                         (Gongolais Cookie)
+        27  0.089773                          (Marzipan Cookie)
+        14  0.084827                               (Berry Tart)
+        32  0.083987                        (Apricot Croissant)
+        1   0.083613                               (Lemon Cake)
+        0   0.083533                           (Chocolate Cake)
+        46  0.083147                         (Chocolate Coffee)
+        16  0.082947                           (Blueberry Tart)
+        9   0.082747                            (Napoleon Cake)
+        5   0.082240                             (Truffle Cake)
+        33  0.082213                         (Cheese Croissant)
+        3   0.082093                               (Opera Cake)
+        47  0.077467                      (Vanilla Frappuccino)
+        37  0.077200                             (Almond Twist)
+        11  0.077120                                (Apple Pie)
+        15  0.075867                          (Blackberry Tart)
+        19  0.075800                               (Lemon Tart)
+        44  0.075200                            (Bottled Water)
+        2   0.075013                              (Casino Cake)
+        17  0.073720                           (Chocolate Tart)
+        40  0.068240                           (Lemon Lemonade)
+        12  0.068227                               (Apple Tart)
+        24  0.068013                             (Lemon Cookie)
+        49  0.067973                          (Single Espresso)
+        29  0.067853                            (Walnut Cookie)
+        41  0.067747                       (Raspberry Lemonade)
+        36  0.067693                             (Apple Danish)
+        23  0.067640                         (Raspberry Cookie)
+        31  0.067293                          (Apple Croissant)
+        43  0.062467                                (Green Tea)
+        48  0.061987                              (Cherry Soda)
+        56  0.053093              (Cherry Tart, Apricot Danish)
+        57  0.050920            (Tuile Cookie, Marzipan Cookie)
+        39  0.044093                         (Blueberry Danish)
+        50  0.044040         (Chocolate Cake, Chocolate Coffee)
+        54  0.043920           (Truffle Cake, Gongolais Cookie)
+        55  0.043507        (Blueberry Tart, Apricot Croissant)
+        51  0.043373                  (Opera Cake, Cherry Tart)
+        20  0.043373                               (Pecan Tart)
+        34  0.043240                      (Chocolate Croissant)
+        21  0.043240                           (Ganache Cookie)
+        53  0.043147           (Strawberry Cake, Napoleon Cake)
+        58  0.043067           (Cheese Croissant, Orange Juice)
+        52  0.043027               (Opera Cake, Apricot Danish)
+        30  0.042733                         (Almond Croissant)
+        8   0.042520                           (Vanilla Eclair)
+        38  0.042440                              (Almond Bear)
+        26  0.042387                         (Vanilla Meringue)
+        6   0.042373                         (Chocolate Eclair)
+        13  0.042360                             (Apricot Tart)
+        10  0.042040                              (Almond Tart)
+        25  0.041933                       (Chocolate Meringue)
+        59  0.041107  (Opera Cake, Cherry Tart, Apricot Danish)
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}46}]:} \PY{n}{dt\PYZus{}rand} \PY{o}{=} \PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
-         \PY{n}{dt\PYZus{}rand}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{threshold}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}46}]:} array([-0.48002306, -0.90108308, -2.        , -2.        ,  0.72923988,
-                -2.        , -2.        ])
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}47}]:} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{o}{.}\PY{n}{columns}\PY{p}{[}\PY{n}{dt\PYZus{}rand}\PY{o}{.}\PY{n}{tree\PYZus{}}\PY{o}{.}\PY{n}{feature}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}47}]:} Index(['f1', 'f1', 'f1', 'f1', 'f1', 'f1', 'f1'], dtype='object')
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}48}]:} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{ccake\PYZus{}support} \PY{o}{=} \PY{n}{bake\PYZus{}f}\PY{p}{[}\PY{n}{bake\PYZus{}f}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{itemsets}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Chocolate Cake}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{support}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{ccake\PYZus{}support}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-<class 'pandas.core.frame.DataFrame'>
-Int64Index: 1000 entries, 0 to 499
-Data columns (total 2 columns):
-f1       1000 non-null float64
-Class    1000 non-null object
-dtypes: float64(1), object(1)
-memory usage: 23.4+ KB
+0.08353333333333333
 
     \end{Verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}49}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{min of c1: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{min}\PY{p}{(}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{median of c1: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{p}{)}\PY{p}{)}
-         \PY{n}{c1\PYZus{}pd} \PY{o}{=} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
-         \PY{n}{c1\PYZus{}pd} \PY{o}{=} \PY{n}{c1\PYZus{}pd}\PY{p}{[}\PY{n}{c1\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{\PYZlt{}} \PY{l+m+mf}{4.86202}\PY{p}{]}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lower half of c1 median:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{c1\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}10}]:} \PY{n}{ccoffee\PYZus{}support} \PY{o}{=} \PY{n}{bake\PYZus{}f}\PY{p}{[}\PY{n}{bake\PYZus{}f}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{itemsets}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Chocolate Coffee}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{support}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{ccoffee\PYZus{}support}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-min of c1:  -0.8461028881213419
-median of c1:  4.862024474793273
-Lower half of c1 median: 3.5262385889406183
+0.08314666666666666
 
     \end{Verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}50}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{max of c2: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{max}\PY{p}{(}\PY{p}{)}\PY{p}{)}
-         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{median of c2: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{p}{)}\PY{p}{)}
-         \PY{n}{c2\PYZus{}pd} \PY{o}{=} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{c2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} 
-         \PY{n}{c2\PYZus{}pd} \PY{o}{=} \PY{n}{c2\PYZus{}pd}\PY{p}{[}\PY{n}{c2\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{\PYZgt{}} \PY{o}{\PYZhy{}}\PY{l+m+mf}{4.92745}\PY{p}{]}
-         \PY{n}{c2\PYZus{}pd}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}11}]:} \PY{n}{pair\PYZus{}support} \PY{o}{=} \PY{n}{bake\PYZus{}f}\PY{p}{[}\PY{n}{bake\PYZus{}f}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{itemsets}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{==} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Chocolate Coffee}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Chocolate Cake}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{]}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{support}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{pair\PYZus{}support}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-max of c2:  0.7283188149442736
-median of c2:  -4.927450383347026
+0.04404
 
     \end{Verbatim}
 
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{n}{all\PYZus{}n} \PY{o}{=} \PY{n}{intial\PYZus{}bakery\PYZus{}df}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Transaction Number}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}
+         \PY{n}{all\PYZus{}n}
+\end{Verbatim}
+
+
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}50}]:} -3.655450304469958
+{\color{outcolor}Out[{\color{outcolor}12}]:} 75000
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}51}]:} \PY{n}{sm\PYZus{}pd\PYZus{}c1\PYZus{}c2} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{c1\PYZus{}pd}\PY{p}{,}\PY{n}{c2\PYZus{}pd}\PY{p}{]}\PY{p}{)}
-         \PY{n}{sm\PYZus{}pd\PYZus{}c1\PYZus{}c2}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}20}]:} \PY{n}{fp1} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{ceil}\PY{p}{(}\PY{n}{all\PYZus{}n}\PY{o}{*}\PY{n}{ccoffee\PYZus{}support}\PY{p}{)}
+         \PY{n}{fp1}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}51}]:} f1   -0.061132
-         dtype: float64
+{\color{outcolor}Out[{\color{outcolor}20}]:} 6236.0
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}52}]:} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}21}]:} \PY{n}{f1p} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{ceil}\PY{p}{(}\PY{n}{all\PYZus{}n}\PY{o}{*}\PY{n}{ccake\PYZus{}support}\PY{p}{)}
+         \PY{n}{f1p}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}52}]:} -0.06113229204151116
+{\color{outcolor}Out[{\color{outcolor}21}]:} 6265.0
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}53}]:} \PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}22}]:} \PY{n}{f11} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{ceil}\PY{p}{(}\PY{n}{all\PYZus{}n}\PY{o}{*}\PY{n}{pair\PYZus{}support}\PY{p}{)}
+         \PY{n}{f11}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}53}]:} -0.002313271404979895
+{\color{outcolor}Out[{\color{outcolor}22}]:} 3303.0
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}60}]:} \PY{n}{plt}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{rand\PYZus{}data\PYZus{}frame}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{f1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,} \PY{n}{bins}\PY{o}{=}\PY{l+m+mi}{100}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}23}]:} \PY{n}{f01} \PY{o}{=} \PY{n}{fp1} \PY{o}{\PYZhy{}} \PY{n}{f11}
+         \PY{n}{f01}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}60}]:} (array([ 1.,  0.,  0.,  0.,  0.,  3.,  5.,  2.,  3.,  1.,  5.,  8.,  2.,
-                  9., 11., 13., 12., 16., 24., 12., 18., 17., 10., 22., 21., 22.,
-                 18., 14., 23., 22., 23., 17., 21., 19., 12., 11., 14.,  7., 10.,
-                  4.,  8.,  4.,  8.,  5.,  5.,  8.,  4.,  1.,  1.,  3.,  1.,  6.,
-                  0.,  0.,  4.,  2.,  2.,  8.,  6.,  4.,  7., 11., 11.,  7., 15.,
-                 15., 10., 11., 16., 17., 18., 21., 16., 20., 23., 21., 17., 15.,
-                 22., 14., 18., 14.,  9., 11., 11., 15., 13., 18.,  7., 12.,  6.,
-                  7.,  2.,  3.,  4.,  2.,  3.,  3.,  2.,  1.]),
-          array([-10.35375048, -10.15094962,  -9.94814876,  -9.7453479 ,
-                  -9.54254704,  -9.33974618,  -9.13694532,  -8.93414446,
-                  -8.7313436 ,  -8.52854274,  -8.32574188,  -8.12294102,
-                  -7.92014016,  -7.7173393 ,  -7.51453844,  -7.31173759,
-                  -7.10893673,  -6.90613587,  -6.70333501,  -6.50053415,
-                  -6.29773329,  -6.09493243,  -5.89213157,  -5.68933071,
-                  -5.48652985,  -5.28372899,  -5.08092813,  -4.87812727,
-                  -4.67532641,  -4.47252555,  -4.26972469,  -4.06692383,
-                  -3.86412298,  -3.66132212,  -3.45852126,  -3.2557204 ,
-                  -3.05291954,  -2.85011868,  -2.64731782,  -2.44451696,
-                  -2.2417161 ,  -2.03891524,  -1.83611438,  -1.63331352,
-                  -1.43051266,  -1.2277118 ,  -1.02491094,  -0.82211008,
-                  -0.61930922,  -0.41650837,  -0.21370751,  -0.01090665,
-                   0.19189421,   0.39469507,   0.59749593,   0.80029679,
-                   1.00309765,   1.20589851,   1.40869937,   1.61150023,
-                   1.81430109,   2.01710195,   2.21990281,   2.42270367,
-                   2.62550453,   2.82830538,   3.03110624,   3.2339071 ,
-                   3.43670796,   3.63950882,   3.84230968,   4.04511054,
-                   4.2479114 ,   4.45071226,   4.65351312,   4.85631398,
-                   5.05911484,   5.2619157 ,   5.46471656,   5.66751742,
-                   5.87031828,   6.07311914,   6.27591999,   6.47872085,
-                   6.68152171,   6.88432257,   7.08712343,   7.28992429,
-                   7.49272515,   7.69552601,   7.89832687,   8.10112773,
-                   8.30392859,   8.50672945,   8.70953031,   8.91233117,
-                   9.11513203,   9.31793289,   9.52073375,   9.7235346 ,
-                   9.92633546]),
-          <a list of 100 Patch objects>)
+{\color{outcolor}Out[{\color{outcolor}23}]:} 2933.0
 \end{Verbatim}
             
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_63_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}24}]:} \PY{n}{f10} \PY{o}{=} \PY{n}{f1p} \PY{o}{\PYZhy{}} \PY{n}{f11}
+         \PY{n}{f10}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}24}]:} 2962.0
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}25}]:} \PY{n}{f0p} \PY{o}{=} \PY{n}{all\PYZus{}n} \PY{o}{\PYZhy{}} \PY{n}{f1p}
+         \PY{n}{f0p}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}25}]:} 68735.0
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}26}]:} \PY{n}{fp0} \PY{o}{=} \PY{n}{all\PYZus{}n} \PY{o}{\PYZhy{}} \PY{n}{fp1}
+         \PY{n}{fp0}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}26}]:} 68764.0
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}27}]:} \PY{n}{f00} \PY{o}{=} \PY{n}{fp0} \PY{o}{\PYZhy{}} \PY{n}{f10} 
+         \PY{n}{f00}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}27}]:} 65802.0
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}33}]:} \PY{n}{f0p} \PY{o}{\PYZhy{}} \PY{n}{f01} \PY{o}{==} \PY{n}{f00}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}33}]:} True
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}34}]:} \PY{n}{f00} \PY{o}{+} \PY{n}{f01} \PY{o}{==} \PY{n}{f0p}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}34}]:} True
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}35}]:} \PY{n}{f00} \PY{o}{+} \PY{n}{f10} \PY{o}{==} \PY{n}{fp0}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}35}]:} True
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}36}]:} \PY{n}{f11} \PY{o}{+} \PY{n}{f10} \PY{o}{==} \PY{n}{f1p}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}36}]:} True
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}37}]:} \PY{n}{f11} \PY{o}{+} \PY{n}{f01} \PY{o}{==} \PY{n}{fp1}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}37}]:} True
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}82}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Coco}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{!Coco}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cake}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{f11}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{f10}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{f1p}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{!Cake}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{f01}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{f00}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{f0p}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{fp1}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{fp0}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{all\PYZus{}n}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+	 Coco 		 !Coco 	
+
+Cake 	 3303.0 	 2962.0 	 6265.0
+
+!Cake 	 2933.0 	 65802.0 	 68735.0
+
+	 6236.0 	 68764.0 	 75000
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}86}]:} \PY{n}{corr} \PY{o}{=} \PY{p}{(}\PY{n}{f11}\PY{o}{*}\PY{n}{f00} \PY{o}{\PYZhy{}} \PY{n}{f10}\PY{o}{*}\PY{n}{f01}\PY{p}{)}\PY{o}{/}\PY{n}{np}\PY{o}{.}\PY{n}{sqrt}\PY{p}{(}\PY{n}{fp1}\PY{o}{*}\PY{n}{f1p}\PY{o}{*}\PY{n}{fp0}\PY{o}{*}\PY{n}{f0p}\PY{p}{)}
+         \PY{n}{corr}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}86}]:} 0.4855664925278768
+\end{Verbatim}
+            
 
     % Add a bibliography block to the postdoc
     
